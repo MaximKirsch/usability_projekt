@@ -349,534 +349,838 @@
   },
   {
     "id": 13,
-    "titel": "",
-    "orginaltitel": "",
-    "autor": "",
-    "verlagsort": "",
-    "jahr": "",
-    "Anmerkung": "",
-    "isbn": "",
-    "ean": "",
-    "preis": "",
-    "interessenkreis": "",
-    "beschreibung": "",
-    "link": "",
-    "kopien": "",
-    "umfang": "",
-    "cover": "",
-    "untertitel": ""
+    "titel": "Rattentanz",
+    "orginaltitel": "Ratdance",
+    "autor": " Michael Tietz",
+    "verlagsort": "Bookspot Verlag",
+    "jahr": "2010",
+    "Anmerkung": "Ab 12 Jahren",
+    "isbn": "3937357378",
+    "ean": "978-3937357379",
+    "preis": 9.00,
+    "interessenkreis": "Thriller",
+    "beschreibung": "An einem ganz normalen Frühlingsmorgen beginnt der globale Albtraum: Das weltweite Stromnetz bricht, unterbrochen vom bösartigsten Computervirus aller Zeiten, von einer Sekunde auf die andere zusammen. Sämtliche Kommunikationssysteme kollabieren, urplötzlich stürzen Flugzeuge vom Himmel, innerhalb von Stunden regieren Chaos, Gewalt und Anarchie. Es geht um das nackte Überleben in einer bis dahin unbekannten Welt - aber nur die wenigsten scheinen dieser Herausforderung gewachsen. Gibt es Hoffnung für die Menschheit oder werden am Ende nur die Ratten triumphieren? Ein intelligenter, mitreißender Thriller über den totalen Blackout und eine Zivilisation am Scheideweg zwischen Hightech und Mittelalter. Gnadenlos spannend!",
+    "link": "https://www.amazon.de/Rattentanz-Roman-Thriller-Michael-Tietz/dp/3937357378",
+    "kopien": [
+      {
+        "bibliothek": "Stadtbibliothek Bremen",
+        "status": "verliehen"
+      },
+      {
+        "bibliothek": "Stadtbibliothek Vahr",
+        "status": "verliehen"
+      },
+      {
+        "bibliothek": "Staats- und Universitätsbibliothek",
+        "status": "ausleihbar"
+      }
+    ],
+    "umfang": 840,
+    "cover": "assets/rattentanz.jpg",
+    "untertitel": "Roman"
   },
   {
     "id": 14,
-    "titel": "",
-    "orginaltitel": "",
-    "autor": "",
-    "verlagsort": "",
-    "jahr": "",
-    "Anmerkung": "",
-    "isbn": "",
-    "ean": "",
-    "preis": "",
-    "interessenkreis": "",
-    "beschreibung": "",
-    "link": "",
-    "kopien": "",
-    "umfang": "",
-    "cover": "",
-    "untertitel": ""
+    "titel": "Der Professor",
+    "orginaltitel": "The Professor",
+    "autor": "John Katzenbach",
+    "verlagsort": "Knaur TB",
+    "jahr": "2011",
+    "Anmerkung": "Ab 16 Jahren",
+    "isbn": "3426500701",
+    "ean": "978-3426500705",
+    "preis": 10.99,
+    "interessenkreis": "Psychothriller",
+    "beschreibung": "Der pensionierte Psychologieprofessor Adrian Thomas bekommt von seinem Arzt eine niederschmetternde Diagnose: Demenz. Damit haben sich seine schlimmsten Befürchtungen bestätigt. Vor seinem inneren Auge erscheint die Schreckensvision seines unaufhaltsamen, unheilbaren Abgleitens in die Dunkelheit. Verstört blickt der alte Mann auf die Straße hinaus und sieht in der anbrechenden Dämmerung ein vielleicht sechzehnjähriges Mädchen vorübereilen. Gleichzeitig rollt ein Lieferwagen heran, bremst ab und beschleunigt wieder: Das Mädchen ist verschwunden. Der alte Professor ist verwirrt. Hat er gerade eine Entführung beobachtet? Wenn es tatsächlich ein Verbrechen war, muss er handeln. Die Frage ist nur, wie. Kann er noch klar genug denken, um das Mädchen zu finden?",
+    "link": "https://www.amazon.de/Professor-Psychothriller-John-Katzenbach/dp/3426500701/ref=sr_1_1?__mk_de_DE=ÅMÅŽÕÑ&crid=3SZSOWA34ZDW1&keywords=der+prozess&qid=1703930556&s=books&sprefix=der+professor%2Cstripbooks%2C105&sr=1-1",
+    "kopien": [
+      {
+        "bibliothek": "Stadtbibliothek Bremen",
+        "status": "ausleihbar"
+      },
+      {
+        "bibliothek": "Staats- und Universitätsbibliothek",
+        "status": "ausleihbar"
+      }
+    ],
+    "umfang": 560,
+    "cover": "assets/derprofessor.jpg",
+    "untertitel": "Psychothriller"
   },
   {
     "id": 15,
-    "titel": "",
-    "orginaltitel": "",
-    "autor": "",
-    "verlagsort": "",
-    "jahr": "",
-    "Anmerkung": "",
-    "isbn": "",
-    "ean": "",
-    "preis": "",
-    "interessenkreis": "",
-    "beschreibung": "",
-    "link": "",
-    "kopien": "",
-    "umfang": "",
-    "cover": "",
-    "untertitel": ""
+    "titel": "Der Junge im gestreiften Pyjama",
+    "orginaltitel": "The Boy in the Striped Pyjamas",
+    "autor": "Sascha Feuchert",
+    "verlagsort": "Reclam, Philipp, jun. GmbH, Verlag",
+    "jahr": "2018",
+    "Anmerkung": "Für Kinder",
+    "isbn": "3150154979",
+    "ean": "978-3150154977",
+    "preis": 7.40,
+    "interessenkreis": "Lernen",
+    "beschreibung": "Der 2006 als Kinderbuch veröffentlichte Roman schildert den Schrecken des Holocausts aus der Sicht des neunjährigen Bruno, des Sohns eines Konzentrationslager-Kommandanten. Die Geschichte um den Protagonisten, der in kindlicher Unschuld die Bedeutung des Ortes nicht versteht und sich mit einem jüdischen Jungen anfreundet, war ein weltweiter Bestseller. 2008 erschien der Film in den Kinos.",
+    "link": "https://www.amazon.de/Junge-gestreiften-Pyjama-John-Boyne/dp/3150154979/ref=sr_1_5?crid=MU4I24CKHDLP&keywords=der+junge+im+gestreiften+pyjama&qid=1703930758&sprefix=der+junge+%2Caps%2C100&sr=8-5",
+    "kopien": [
+      {
+        "bibliothek": "Stadtbibliothek Bremen",
+        "status": "ausleihbar"
+      },
+      {
+        "bibliothek": "Stadtbibliothek Vahr",
+        "status": "verliehen"
+      }
+    ],
+    "umfang": "https://www.amazon.de/Junge-gestreiften-Pyjama-John-Boyne/dp/3150154979/ref=sr_1_5?crid=MU4I24CKHDLP&keywords=der+junge+im+gestreiften+pyjama&qid=1703930758&sprefix=der+junge+%2Caps%2C100&sr=8-5",
+    "cover": "assets/derjungeimpyjama.jpg",
+    "untertitel": "Lernglossar"
   },
   {
     "id": 16,
-    "titel": "",
-    "orginaltitel": "",
-    "autor": "",
-    "verlagsort": "",
-    "jahr": "",
-    "Anmerkung": "",
-    "isbn": "",
-    "ean": "",
-    "preis": "",
-    "interessenkreis": "",
-    "beschreibung": "",
-    "link": "",
-    "kopien": "",
-    "umfang": "",
-    "cover": "",
-    "untertitel": ""
+    "titel": "Herr der Fliegen",
+    "orginaltitel": "Lord of the flies",
+    "autor": "William Golding",
+    "verlagsort": "FISCHER Taschenbuch",
+    "jahr": "2017",
+    "Anmerkung": "Ab 10 Jahren",
+    "isbn": "3596906679",
+    "ean": "978-3596906673",
+    "preis": 11.00,
+    "interessenkreis": "Roman",
+    "beschreibung": "William Goldings erster und erfolgreichster Roman beschreibt das Ende der Unschuld und ist eine dunkle Parabel auf die verborgene Barbarei zivilisierter Gesellschaften.\n\nDer Klassiker wirft Fragen nach der Natur des Menschen und dem Pathologischen der Gesellschaft auf, die heute so relevant sind wie 1954, als der Roman erstmals erschien. Ein Abenteuerroman, der zum höllischen Inferno mutiert; einfach und spannend erzählt, nun in moderner Übersetzung von Peter Torberg.\n\nEin Flugzeugabsturz über einer unbewohnten Insel im Pazifischen Ozean. Kein Erwachsener überlebt, eine Gruppe englischer Schüler bleibt sich selbst überlassen. Ralph, der zum Anführer gewählt wird, will das Zusammenleben organisieren, aber die Führungsrolle wird ihm von Jack streitig gemacht.",
+    "link": "https://www.amazon.de/Herr-Fliegen-übersetzt-Torberg-Fischer/dp/3596906679/?_encoding=UTF8&pd_rd_w=2oS2l&content-id=amzn1.sym.f9385636-629e-4d6a-934b-c0e927d36958&pf_rd_p=f9385636-629e-4d6a-934b-c0e927d36958&pf_rd_r=QWJV5NWSEX5FWTV5GRC8&pd_rd_wg=qfjiQ&pd_rd_r=68c69f72-7303-44ea-a5c7-a313b123f580&ref_=pd_gw_cr_wsim",
+    "kopien": [
+      {
+        "bibliothek": "Stadtbibliothek Bremen",
+        "status": "ausleihbar"
+      },
+      {
+        "bibliothek": "Stadtbibliothek Vahr",
+        "status": "verliehen"
+      }
+    ],
+    "umfang": 224,
+    "cover": "assets/herrderfliegen.jpg",
+    "untertitel": "Neu übersetzt von Peter Torberg"
   },
   {
     "id": 17,
-    "titel": "",
-    "orginaltitel": "",
-    "autor": "",
-    "verlagsort": "",
-    "jahr": "",
-    "Anmerkung": "",
-    "isbn": "",
-    "ean": "",
-    "preis": "",
-    "interessenkreis": "",
-    "beschreibung": "",
-    "link": "",
-    "kopien": "",
-    "umfang": "",
-    "cover": "",
-    "untertitel": ""
+    "titel": "Avatar: Das Blut von Pandora",
+    "orginaltitel": "Avatar: The blood of Pandora",
+    "autor": "Sherri L. Smith",
+    "verlagsort": "Panini Verlags GmbH",
+    "jahr": "2023",
+    "Anmerkung": "Ab 14 Jahren",
+    "isbn": "3741630837",
+    "ean": "978-3741630835",
+    "preis": 13.00,
+    "interessenkreis": "Action",
+    "beschreibung": "DAS OFFIZIELLE FILM-PREQUEL Der Marine Jake Sully und die Na’vi-Kriegerin Neytiri haben erbittert um den Planeten Pandora, aber auch um ihre Liebe gekämpft – und gewonnen. Jetzt sind sie eine Na’vi-Familie und sehen ihre Kinder inmitten der wilden Natur von Pandora aufwachsen. Doch nach Jahren des Friedens und des Glücks kehren nun die skrupellosen Menschen von der RDA zurück. Und auch diesmal verheißen sie Jake, Neytiri, den Na’vi und ganz Pandora nichts als Gewalt und Gefahr. Aber Jake und seine Verbündeten werden vorbereitet sein … Der Auftakt einer neuen Comic-Saga und das direkte Prequel zu Avatar: The Way of Water – nach einem Drehbuch von Avatar-Mastermind James Cameron, adaptiert von der preisgekrönten Autorin Sherri L. Smith (AVATAR: TSU’TEYS PFAD) und mit Zeichnungen von Guilherme Balbi (Alien: Die Urfassung). ENTHÄLT: AVATAR: THE HIGH GROUND 1",
+    "link": "https://www.amazon.de/Avatar-Das-Blut-von-Pandora/dp/3741630837/ref=sr_1_2?__mk_de_DE=ÅMÅŽÕÑ&crid=3TEIDV3AVYIQE&keywords=avatar+buch&qid=1703931493&sprefix=avatar+buch%2Caps%2C114&sr=8-2",
+    "kopien": [
+      {
+        "bibliothek": "Stadtbibliothek Bremen",
+        "status": "ausleihbar"
+      },
+      {
+        "bibliothek": "Stadtbibliothek Vahr",
+        "status": "verliehen"
+      }
+    ],
+    "umfang": 92,
+    "cover": "assets/avatar1.jpg",
+    "untertitel": "Nach einem Drehbuch von James Cameron"
   },
   {
     "id": 18,
-    "titel": "",
-    "orginaltitel": "",
-    "autor": "",
-    "verlagsort": "",
-    "jahr": "",
+    "titel": "To Kill a Mockingbird",
+    "orginaltitel": "To Kill a Mockingbird",
+    "autor": "Harper Lee",
+    "verlagsort": "Random House UK Ltd",
+    "jahr": "2015",
     "Anmerkung": "",
-    "isbn": "",
-    "ean": "",
-    "preis": "",
-    "interessenkreis": "",
-    "beschreibung": "",
-    "link": "",
-    "kopien": "",
-    "umfang": "",
-    "cover": "",
-    "untertitel": ""
+    "isbn": "178487079X",
+    "ean": "978-1784870799",
+    "preis": 8.99,
+    "interessenkreis": "Roman",
+    "beschreibung": "The perennially beloved and treacly account of growing up in a small Southern town during the Depression....To read the novel is, for most, an exercise in wish-fulfillment and self-congratulation, a chance to consider thorny issues of race and prejudice from a safe distance and with the comfortable certainty that the reader would never harbor the racist attitudes espoused by the lowlifes in the novel.",
+    "link": "https://www.amazon.de/Kill-Mockingbird-Harper-Lee/dp/B01M1OAGS7/ref=sr_1_2?crid=3UZ9AJ0ECDB26&keywords=to+kill+a+mockingbird&qid=1703931745&sprefix=to+kill%2Caps%2C91&sr=8-2",
+    "kopien": [
+      {
+        "bibliothek": "Stadtbibliothek Bremen",
+        "status": "ausleihbar"
+      },
+      {
+        "bibliothek": "Stadtbibliothek Vahr",
+        "status": "verliehen"
+      }
+    ],
+    "umfang": 320,
+    "cover": "assets/tokillamockingbird.jpg",
+    "untertitel": "60th Anniversary Edition"
   },
   {
     "id": 19,
-    "titel": "",
-    "orginaltitel": "",
-    "autor": "",
-    "verlagsort": "",
-    "jahr": "",
-    "Anmerkung": "",
-    "isbn": "",
-    "ean": "",
-    "preis": "",
-    "interessenkreis": "",
-    "beschreibung": "",
-    "link": "",
-    "kopien": "",
-    "umfang": "",
-    "cover": "",
-    "untertitel": ""
+    "titel": "Tote Mädchen lügen nicht",
+    "orginaltitel": "13 reasons why",
+    "autor": "Jay Asher",
+    "verlagsort": "cbt",
+    "jahr": "2012",
+    "Anmerkung": "Ab 13 Jahren",
+    "isbn": "357030843X",
+    "ean": "978-3570308431",
+    "preis": 10.00,
+    "interessenkreis": "Thriller",
+    "beschreibung": "Als Clay Jensen aus der Schule nach Hause kommt, findet er ein Päckchen mit Kassetten vor. Er legt die erste in einen alten Kassettenrekorder, drückt auf »Play« – und hört die Stimme von Hannah Baker. Hannah, seine ehemalige Mitschülerin. Hannah, für die er heimlich schwärmte. Hannah, die sich vor zwei Wochen umgebracht hat. Mit ihrer Stimme im Ohr wandert Clay durch die Nacht, und was er hört, lässt ihm den Atem stocken. Dreizehn Gründe sind es, die zu ihrem Selbstmord geführt haben, dreizehn Personen, die daran ihren Anteil haben. Clay ist einer davon ..",
+    "link": "https://www.amazon.de/Tote-Mädchen-lügen-nicht-Asher/dp/357030843X/ref=sr_1_1?crid=231HPPQILT3Y7&keywords=tote+mädchen+lügen+nicht&qid=1703931966&sprefix=tote+mäd%2Caps%2C99&sr=8-1",
+    "kopien": [
+      {
+        "bibliothek": "Stadtbibliothek Bremen",
+        "status": "ausleihbar"
+      },
+      {
+        "bibliothek": "Stadtbibliothek Vahr",
+        "status": "verliehen"
+      }
+    ],
+    "umfang": 288,
+    "cover": "assets/totemaedchenluegennicht.jpg",
+    "untertitel": "Hannah Baker will nach einem Schulwechsel ein neues Leben beginnen, doch 13 Begegnungen treiben sie in den Tod. Ein Thriller, der unter die Haut geht, wie kaum ein anderer – denn tote Mädchen lügen nicht ..."
   },
   {
     "id": 20,
-    "titel": "",
-    "orginaltitel": "",
-    "autor": "",
-    "verlagsort": "",
-    "jahr": "",
-    "Anmerkung": "",
-    "isbn": "",
-    "ean": "",
-    "preis": "",
-    "interessenkreis": "",
-    "beschreibung": "",
-    "link": "",
-    "kopien": "",
-    "umfang": "",
-    "cover": "",
-    "untertitel": ""
+    "titel": "Lonely Castle in the Mirror",
+    "orginaltitel": "Lonely Castle in the Mirror",
+    "autor": "Mizuki Tsujimura",
+    "verlagsort": "Hayabusa (Carlsen)",
+    "jahr": "2023",
+    "Anmerkung": "Jugendroman ab 13 Jahre",
+    "isbn": "3551624143",
+    "ean": "978-3551624147",
+    "preis": 15.00,
+    "interessenkreis": "Fantasy",
+    "beschreibung": "Sieben einsame Teenager, die nicht mehr zur Schule gehen wollen, gelangen über ihre Spiegel in ein mysteriöses Schloss. Dort müssen sie den Schlüssel zu einem versteckten Raum finden, in dem allerdings nur einem von ihnen ein Wunsch erfüllt werden kann …",
+    "link": "https://www.amazon.de/Lonely-Castle-Mirror-Fantasy-Erfolg-endlich/dp/3551624143/ref=sr_1_1?__mk_de_DE=ÅMÅŽÕÑ&keywords=Lonely+Castle+in+the+Mirror&qid=1703932928&sr=8-1",
+    "kopien": [
+      {
+        "bibliothek": "Stadtbibliothek Bremen",
+        "status": "verliehen"
+      },
+      {
+        "bibliothek": "Stadtbibliothek Vahr",
+        "status": "verliehen"
+      },
+      {
+        "bibliothek": "Staats- und Universitätsbibliothek",
+        "status": "ausleihbar"
+      }
+    ],
+    "umfang": 464,
+    "cover": "assets/lonelycastleinthemirror.jpg",
+    "untertitel": "Eine bewegende Geschichte über Einsamkeit, Mobbing und psychische Gesundheit – und wie man gemeinsam Ängste überwindet."
   },
   {
     "id": 21,
-    "titel": "",
-    "orginaltitel": "",
-    "autor": "",
-    "verlagsort": "",
-    "jahr": "",
-    "Anmerkung": "",
-    "isbn": "",
-    "ean": "",
-    "preis": "",
-    "interessenkreis": "",
-    "beschreibung": "",
-    "link": "",
-    "kopien": "",
-    "umfang": "",
-    "cover": "",
-    "untertitel": ""
+    "titel": "Gregs Tagebuch- Von Idioten umzingelt!",
+    "orginaltitel": "Diary of a wimpy kid",
+    "autor": "Jeff Kinney",
+    "verlagsort": "Baumhaus",
+    "jahr": "2021",
+    "Anmerkung": "Kundenempfehlung: 8–11 Jahr(e)",
+    "isbn": "384320005X",
+    "ean": "978-3843200059",
+    "preis": 12.00,
+    "interessenkreis": "Roman",
+    "beschreibung": "Greg hat von seiner Mutter ein Tagebuch geschenkt bekommen. Und das, obwohl Tagebücher doch eigentlich nur was für Mädchen sind! Oder etwa doch nicht? Greg jedenfalls beginnt einfach mal darin zu schreiben und zu zeichnen: über seine lästigen Brüder, seine Eltern, seinen trotteligen\nFreund Rupert, den täglichen Überlebenskampf in der Schule, ein echt gruseliges Geisterhaus und über den verbotenen Stinkekäse ...",
+    "link": "https://www.amazon.de/Gregs-Tagebuch-Von-Idioten-umzingelt/dp/384320005X/ref=sr_1_1?__mk_de_DE=ÅMÅŽÕÑ&crid=PY697FZQLO0P&keywords=gregs+tagebuch+1&qid=1703933197&sprefix=gregs+tagebuch+1%2Caps%2C95&sr=8-1",
+    "kopien": [
+      {
+        "bibliothek": "Stadtbibliothek Bremen",
+        "status": "verliehen"
+      },
+      {
+        "bibliothek": "Stadtbibliothek Vahr",
+        "status": "verliehen"
+      },
+      {
+        "bibliothek": "Staats- und Universitätsbibliothek",
+        "status": "ausleihbar"
+      }
+    ],
+    "umfang": 224,
+    "cover": "assets/gregs1",
+    "untertitel": "Ein Comic-Roman"
   },
   {
     "id": 22,
-    "titel": "",
-    "orginaltitel": "",
-    "autor": "",
-    "verlagsort": "",
-    "jahr": "",
-    "Anmerkung": "",
-    "isbn": "",
-    "ean": "",
-    "preis": "",
-    "interessenkreis": "",
-    "beschreibung": "",
-    "link": "",
-    "kopien": "",
-    "umfang": "",
-    "cover": "",
-    "untertitel": ""
+    "titel": "Gregs Tagebuch - Gibt's Probleme?",
+    "orginaltitel": "Diary of a Wimpy Kid # 2: Rodrick Rules",
+    "autor": "Jeff Kinney",
+    "verlagsort": "Baumhaus",
+    "jahr": "2012",
+    "Anmerkung": "Kundenempfehlung: 8–11 Jahr(e)",
+    "isbn": "384320053X",
+    "ean": "978-3843200530",
+    "preis": 12.00,
+    "interessenkreis": "Roman",
+    "beschreibung": "Ein neues Schuljahr hat begonnen und Greg ist froh, dass die Sommerferien endlich vorbei sind. Denn die waren diesmal alles andere als lustig! Und das Schlimmste ist: Gregs Bruder Rodrick weiß, was Greg im Sommer alles Peinliches passiert ist. Jetzt hat der nur ein Ziel: Er muss unbedingt verhindern, dass sein wohl gehütetes Geheimnis ans Tageslicht kommt!",
+    "link": "https://www.amazon.de/Gregs-Tagebuch-2-Gibts-Probleme/dp/384320053X/ref=sr_1_1?__mk_de_DE=ÅMÅŽÕÑ&crid=2H9QWZKYSJXS9&keywords=gregs+tagebuch+2&qid=1703933933&sprefix=gregs+tagebuch+2%2Caps%2C178&sr=8-1",
+    "kopien": [
+      {
+        "bibliothek": "Stadtbibliothek Bremen",
+        "status": "ausleihbar"
+      },
+      {
+        "bibliothek": "Stadtbibliothek Vahr",
+        "status": "ausleihbar"
+      }
+    ],
+    "umfang": 224,
+    "cover": "assets/gregs2.jpg",
+    "untertitel": "Ein Comic-Roman"
   },
   {
     "id": 23,
-    "titel": "",
-    "orginaltitel": "",
-    "autor": "",
-    "verlagsort": "",
-    "jahr": "",
-    "Anmerkung": "",
-    "isbn": "",
-    "ean": "",
-    "preis": "",
-    "interessenkreis": "",
-    "beschreibung": "",
-    "link": "",
-    "kopien": "",
-    "umfang": "",
-    "cover": "",
-    "untertitel": ""
+    "titel": "Gregs Tagebuch: Jetzt reicht's!",
+    "orginaltitel": "Diary of a Wimpy Kid book 3: The Last Straw",
+    "autor": "Jeff Kinney",
+    "verlagsort": "Baumhaus",
+    "jahr": "2009",
+    "Anmerkung": "Kundenempfehlung: 9–11 Jahr(e)",
+    "isbn": "3833936347",
+    "ean": "978-3833936340",
+    "preis": 16.00,
+    "interessenkreis": "Roman",
+    "beschreibung": "Seien wir ehrlich: Greg wird sich niemals ändern. Das sollte wohl mal jemand seinem Vater erklären. Denn der denkt tatsächlich, er könnte seinen Sohn erziehen und aus ihm noch einen richtigen Mann machen. Deshalb auch ist er eifrig auf der Suche nach einer passenden Beschäftigung für Greg. Noch konnte der sich immer aus allem herauswinden. Als sein Vater ihm jetzt jedoch damit droht, ihn auf die Militärakademie zu schicken, ist Greg klar, dass er sich etwas wirklich Gutes einfallen lassen muss. Heiß erwarteter dritter Band der viel bejubelten Bestsellerserie! Mehr als 4 Mio. verkaufte Exemplare allein von Band 1 und 2 in den USA! Seit über 80 Wochen auf der Bestsellerliste der New York Times Phänomenale Resonanz auch beim deutschen Publikum und in den Medien!",
+    "link": "https://www.amazon.de/Gregs-Tagebuch-3-Jetzt-reichts/dp/3833936347/ref=sr_1_1?__mk_de_DE=ÅMÅŽÕÑ&crid=36DX7U0R7K3HY&keywords=gregs+tagebuch+3&qid=1703934286&sprefix=gregs+tagebuch+3%2Caps%2C90&sr=8-1",
+    "kopien": [
+      {
+        "bibliothek": "Stadtbibliothek Bremen",
+        "status": "ausleihbar"
+      },
+      {
+        "bibliothek": "Staats- und Universitätsbibliothek",
+        "status": "ausleihbar"
+      }
+    ],
+    "umfang": 224,
+    "cover": "assets/gregs3.jpg",
+    "untertitel": "Ein Comic-Roman"
   },
   {
     "id": 24,
-    "titel": "",
-    "orginaltitel": "",
-    "autor": "",
-    "verlagsort": "",
-    "jahr": "",
-    "Anmerkung": "",
-    "isbn": "",
-    "ean": "",
-    "preis": "",
-    "interessenkreis": "",
-    "beschreibung": "",
-    "link": "",
-    "kopien": "",
-    "umfang": "",
-    "cover": "",
-    "untertitel": ""
+    "titel": "Gregs Tagebuch: Ich war's nicht!",
+    "orginaltitel": "Diary of a Wimpy Kid book 4: Dog Days",
+    "autor": "Jeff Kinney",
+    "verlagsort": "Baumhaus",
+    "jahr": "2010",
+    "Anmerkung": "Kundenempfehlung: 9–11 Jahr(e)",
+    "isbn": "3833936355",
+    "ean": "978-3833936357",
+    "preis": 16.00,
+    "interessenkreis": "Roman",
+    "beschreibung": "Greg hat Sommerferien, und die würde er am liebsten Video spielend im Wohnzimmer verbringen. Doch leider sieht das seine Mutter ganz anders und schickt ihn raus, damit er \"irgendetwas machen\" soll. Denn die Heffleys sind gerade knapp bei Kasse und machen Urlaub daheim. Aber was soll Greg bloß tun? Schlange stehen im Freibad und lange Autofahrten zum Wasserrutschenparadies ertragen? Das ist doch öde. Und dann beschließt Vater Heffley auch noch, sich einen Traum zu verwirklichen: Ein Hund soll her ..",
+    "link": "https://www.amazon.de/Ich-wars-nicht-Gregs-Tagebuch/dp/3833936355/ref=sr_1_1?__mk_de_DE=ÅMÅŽÕÑ&crid=1FH5UM9DBBAH0&keywords=gregs+tagebuch+4&qid=1703934780&sprefix=gregs+tagebuch+4%2Caps%2C181&sr=8-1",
+    "kopien": [
+      {
+        "bibliothek": "Stadtbibliothek Bremen",
+        "status": "verliehen"
+      },
+      {
+        "bibliothek": "Stadtbibliothek Vahr",
+        "status": "verliehen"
+      },
+      {
+        "bibliothek": "Staats- und Universitätsbibliothek",
+        "status": "ausleihbar"
+      }
+    ],
+    "umfang": 224,
+    "cover": "assets/gregs4.jpg",
+    "untertitel": "Ein Comic-Roman"
   },
   {
     "id": 25,
-    "titel": "",
-    "orginaltitel": "",
-    "autor": "",
-    "verlagsort": "",
-    "jahr": "",
-    "Anmerkung": "",
-    "isbn": "",
-    "ean": "",
-    "preis": "",
-    "interessenkreis": "",
-    "beschreibung": "",
-    "link": "",
-    "kopien": "",
-    "umfang": "",
-    "cover": "",
-    "untertitel": ""
+    "titel": "Gregs Tagebuch: Geht's noch?",
+    "orginaltitel": "Diary of a Wimpy Kid # 5: The Ugly Truth",
+    "autor": "Jeff Kinney",
+    "verlagsort": "Harry N. Abrams",
+    "jahr": "2011",
+    "Anmerkung": "8–12 Jahre",
+    "isbn": "9781419700354",
+    "ean": "978-1419700354",
+    "preis": 16.00,
+    "interessenkreis": "Roman",
+    "beschreibung": "Greg hat´s offenbar eilig, schnell älter zu werden. Aber ist das wirklich so eine gute Idee?Jedenfalls muss er feststellen: Erwachsenwerden ist gar nicht lustig! Denn plötzlich soll Greg \"mehr Verantwortung\" übernehmen, mehr duschen und Deo benutzen, in der Schule peinliche Aufklärungsvideos ansehen und Bücher über die Pubertät lesen. Und dann verkündet seine Mutter auch noch, dass sie wieder studieren will. Soll Greg sich jetzt etwa seine Pausenbrote selbst schmieren, die Wäsche waschen und den Haushalt schmeißen?",
+    "link": "https://www.amazon.de/Gregs-Tagebuch-5-Gehts-noch/dp/3833936363/ref=sr_1_1?__mk_de_DE=ÅMÅŽÕÑ&crid=VPUFVW931O4X&keywords=gregs+tagebuch+5&qid=1703935109&sprefix=gregs+tagebuch+5%2Caps%2C98&sr=8-1",
+    "kopien": [
+      {
+        "bibliothek": "Stadtbibliothek Bremen",
+        "status": "ausleihbar"
+      },
+      {
+        "bibliothek": "Stadtbibliothek Vahr",
+        "status": "ausleihbar"
+      },
+      {
+        "bibliothek": "Staats- und Universitätsbibliothek",
+        "status": "ausleihbar"
+      }
+    ],
+    "umfang": 218,
+    "cover": "assets/gregs5.jpg",
+    "untertitel": "Ein Comic-Roman"
   },
   {
     "id": 26,
-    "titel": "",
-    "orginaltitel": "",
-    "autor": "",
-    "verlagsort": "",
-    "jahr": "",
-    "Anmerkung": "",
-    "isbn": "",
-    "ean": "",
-    "preis": "",
-    "interessenkreis": "",
-    "beschreibung": "",
-    "link": "",
-    "kopien": "",
-    "umfang": "",
-    "cover": "",
-    "untertitel": ""
+    "titel": "Gregs Tagebuch - Keine Panik!",
+    "orginaltitel": "Diary of a Wimpy Kid: Cabin Fever (Book 6)",
+    "autor": "Jeff Kinney",
+    "verlagsort": "Harry N. Abrams",
+    "jahr": "2011",
+    "Anmerkung": "Kundenempfehlung: 8–10 Jahr(e)",
+    "isbn": "3833936371",
+    "ean": "978-3833936371",
+    "preis": 16.00,
+    "interessenkreis": "Roman",
+    "beschreibung": "Greg ist in großen Schwierigkeiten. In der Schule wurden Dinge beschädigt, und er ist in Verdacht geraten, der Schuldige zu sein. Dabei ist er unschuldig - zumindest irgendwie. Droht ihm trotzdem eine fette Strafe? Zu allem Übel werden die Heffleys von einem Schneesturm überrascht und eingeschneit. So bleibt die Familie im Haus gefangen. Der Strom fällt aus, das Essen wird knapp und alle gehen sich kräftig auf den Wecker ... Stellt sich die Frage: Gibt es eine schlimmere Strafe, als mit der eigenen Familie eingesperrt zu sein? Da heißt es: Nerven behalten. Bloß keine Panik!",
+    "link": "https://www.amazon.de/Gregs-Tagebuch-6-Keine-Panik/dp/3833936371/ref=sr_1_1?__mk_de_DE=ÅMÅŽÕÑ&crid=1EUH596UUPY4A&keywords=gregs+tagebuch+6&qid=1703942587&sprefix=gregs+tagebuch+6%2Caps%2C173&sr=8-1",
+    "kopien": [
+      {
+        "bibliothek": "Stadtbibliothek Bremen",
+        "status": "verliehen"
+      },
+      {
+        "bibliothek": "Stadtbibliothek Vahr",
+        "status": "verliehen"
+      },
+      {
+        "bibliothek": "Staats- und Universitätsbibliothek",
+        "status": "verliehen"
+      }
+    ],
+    "umfang": 224,
+    "cover": "assets/gregs6.jpg",
+    "untertitel": "Ein Comic-Roman"
   },
   {
     "id": 27,
-    "titel": "",
-    "orginaltitel": "",
-    "autor": "",
-    "verlagsort": "",
-    "jahr": "",
-    "Anmerkung": "",
-    "isbn": "",
-    "ean": "",
-    "preis": "",
-    "interessenkreis": "",
-    "beschreibung": "",
-    "link": "",
-    "kopien": "",
-    "umfang": "",
-    "cover": "",
-    "untertitel": ""
+    "titel": "Gregs Tagebuch - Dumm gelaufen!",
+    "orginaltitel": "Diary of a Wimpy Kid: The Third Wheel (Book 7)",
+    "autor": "Jeff Kinney",
+    "verlagsort": "Puffin",
+    "jahr": "2014",
+    "Anmerkung": "Kundenempfehlung: 9–11 Jahr(e)",
+    "isbn": "9783833936319",
+    "ean": "978-3833936319",
+    "preis": 16.00,
+    "interessenkreis": "Roman",
+    "beschreibung": "Greg steht vor neuen Herausforderungen. Der Valentinstag rückt näher, und er hat immer noch keine Tanzpartnerin für den an diesem Abend stattfindenden Schulball. Kein Wunder, denn Mädchen sind Greg nicht nur ein ziemliches Rätsel, sondern irgendwie auch nicht ganz geheuer. Folglich macht er auch einfach alles falsch, was man bei Mädchen falsch machen kann. Am Telefon stottert er nur herum und hinterlässt dann auch noch zwanzig Nachrichten auf dem Anrufbeantworter, weil er denkt, man könne die einfach löschen. Schriftliche Einladungen sind aber irgendwie auch nicht so sein Ding, denn er begeht den fatalen Fehler, gleich zwei Mädchen mit einer Karte einladen zu wollen. Und ein Mädchen einfach persönlich ansprechen: Never! Dass es Gregs Freund Rupert nicht anders geht, ist da nur ein schwacher Trost. Und vor allem ist es ganz und gar nicht hilfreich, dass es mehr Jungs als Mädchen in der Klasse gibt. Dazu kommt, dass Greg keine Ahnung hat, wie man Mädchen beeindruckt. Mit Sonnenbrille und Lederjacke? Wohl eher nicht, denn Gregs Mutter ist schnell dahintergekommen, dass Greg die Jacke angezogen hat, obwohl sie es verboten hat und steht auf einmal peinlicherweise im Klassenzimmer.",
+    "link": "https://www.amazon.de/Gregs-Tagebuch-7-Dumm-gelaufen/dp/3833936312/ref=sr_1_1?__mk_de_DE=ÅMÅŽÕÑ&crid=3VC50NBA1JA5H&keywords=gregs+tagebuch+7&qid=1703942791&sprefix=gregs+tagebuch+7%2Caps%2C98&sr=8-1",
+    "kopien": [
+      {
+        "bibliothek": "Stadtbibliothek Bremen",
+        "status": "ausleihbar"
+      },
+      {
+        "bibliothek": "Stadtbibliothek Vahr",
+        "status": "verliehen"
+      },
+      {
+        "bibliothek": "Staats- und Universitätsbibliothek",
+        "status": "ausleihbar"
+      }
+    ],
+    "umfang": 224,
+    "cover": "assets/gregs7.jpg",
+    "untertitel": "Ein Comic-Roman"
   },
   {
     "id":28,
-    "titel": "",
-    "orginaltitel": "",
-    "autor": "",
+    "titel": "Gregs Tagebuch - Echt übel!",
+    "orginaltitel": "Diary of a Wimpy Kid: Hard Luck (Book 8)",
+    "autor": "Jeff Kinney",
     "verlagsort": "",
-    "jahr": "",
-    "Anmerkung": "",
-    "isbn": "",
-    "ean": "",
-    "preis": "",
-    "interessenkreis": "",
-    "beschreibung": "",
-    "link": "",
-    "kopien": "",
-    "umfang": "",
-    "cover": "",
-    "untertitel": ""
+    "jahr": "2013",
+    "Anmerkung": "Kundenempfehlung: 8–11 Jahr(e)",
+    "isbn": "3833936495",
+    "ean": "978-3833936494",
+    "preis": 16.00,
+    "interessenkreis": "Roman",
+    "beschreibung": "Greg kann es einfach nicht fassen. Rupert hat eine Freundin! Seit dem Valentinsball ist er mit Abigail zusammen - und Greg ist ab sofort abgeschrieben. Das ist echt übel und bringt einige Schwierigkeiten mit sich. Der Schulweg zum Beispiel. Bisher ist Rupert immer vorgegangen und hat Greg vor Hundehaufen gewarnt. Ohne Rupert versaut sich Greg natürlich gleich seine neuen Schuhe. Aber was noch viel schlimmer ist: Mit wem soll Greg jetzt rumhängen? Er muss feststellen, dass es ohne Rupert ganz schön langweilig ist. Ein Plan muss her ..",
+    "link": "https://www.amazon.de/Gregs-Tagebuch-8-Echt-übel/dp/3833936495/ref=sr_1_1?__mk_de_DE=ÅMÅŽÕÑ&crid=1WO0RXP1VLNZD&keywords=gregs+tagebuch+8&qid=1703942999&sprefix=gregs+tagebuch+8%2Caps%2C103&sr=8-1",
+    "kopien": [
+      {
+        "bibliothek": "Stadtbibliothek Bremen",
+        "status": "ausleihbar"
+      },
+      {
+        "bibliothek": "Stadtbibliothek Vahr",
+        "status": "verliehen"
+      },
+      {
+        "bibliothek": "Staats- und Universitätsbibliothek",
+        "status": "ausleihbar"
+      }
+    ],
+    "umfang": 224,
+    "cover": "assets/gregs8.jpg",
+    "untertitel": "Ein Comic-Roman"
   },
   {
     "id": 29,
-    "titel": "",
-    "orginaltitel": "",
-    "autor": "",
-    "verlagsort": "",
-    "jahr": "",
-    "Anmerkung": "",
-    "isbn": "",
-    "ean": "",
-    "preis": "",
-    "interessenkreis": "",
-    "beschreibung": "",
-    "link": "",
-    "kopien": "",
-    "umfang": "",
-    "cover": "",
-    "untertitel": ""
+    "titel": "Gregs Tagebuch - Böse Falle!",
+    "orginaltitel": "Diary of a Wimpy Kid: The Long Haul (Book 9)",
+    "autor": "Jeff Kinney",
+    "verlagsort": "Baumhaus",
+    "jahr": "2014",
+    "Anmerkung": "Kundenempfehlung: 8–11 Jahr(e)",
+    "isbn": "3833936509",
+    "ean": "978-3833936500",
+    "preis": 16.00,
+    "interessenkreis": "Roman",
+    "beschreibung": "Wenn jemand eine Reise tut, so kann er was erzählen. Und wenn dieser Jemand Greg Heffley heißt, ist das Chaos vorprogrammiert. Dann gibt es jede Menge zu erzählen. Denn nicht nur Greg ist unterwegs, sondern die gesamte Familie Heffley. Auf einem Roadtrip der besonderen Art.\nWaren alle auf Toilette?\nHaben wir niemanden vergessen?\nAlles klar. Dann schnallt euch an und seid gespannt auf eine wilde Fahrt quer durch die USA, bei der kein Auge trocken bleibt.",
+    "link": "https://www.amazon.de/Gregs-Tagebuch-9-Böse-Falle/dp/3833936509/ref=sr_1_1?__mk_de_DE=ÅMÅŽÕÑ&crid=1YF4NBBB4J29N&keywords=gregs+tagebuch+9&qid=1703945861&sprefix=gregs+tagebuch+9%2Caps%2C165&sr=8-1",
+    "kopien": [
+      {
+        "bibliothek": "Stadtbibliothek Bremen",
+        "status": "verliehen"
+      },
+      {
+        "bibliothek": "Stadtbibliothek Vahr",
+        "status": "verliehen"
+      },
+      {
+        "bibliothek": "Staats- und Universitätsbibliothek",
+        "status": "verliehen"
+      }
+    ],
+    "umfang": 224,
+    "cover": "assets/gregs9.jpg",
+    "untertitel": "Ein Comic-Roman"
   },
   {
     "id": 30,
-    "titel": "",
-    "orginaltitel": "",
-    "autor": "",
-    "verlagsort": "",
-    "jahr": "",
-    "Anmerkung": "",
-    "isbn": "",
-    "ean": "",
-    "preis": "",
-    "interessenkreis": "",
-    "beschreibung": "",
-    "link": "",
-    "kopien": "",
-    "umfang": "",
-    "cover": "",
-    "untertitel": ""
+    "titel": "Gregs Tagebuch - So ein Mist!",
+    "orginaltitel": "Diary of a Wimpy Kid: Old School (Book 10)",
+    "autor": "Jeff Kinney",
+    "verlagsort": "Baumhaus Taschenbuch",
+    "jahr": "2019",
+    "Anmerkung": "Kundenempfehlung: 8–11 Jahr(e)",
+    "isbn": "384321106X",
+    "ean": "978-3843211062",
+    "preis": 16.00,
+    "interessenkreis": "Roman",
+    "beschreibung": "Greg ist entsetzt, als seine Mom für die ganze Stadt ein elektronikfreies Wochenende organisieren will. Zwei Tage ohne Handy, Fernsehen und Computerspiele? Stattdessen gemeinsames Saubermachen im Park, Nachmittage in der freien Natur und ein altmodischer Limonadenstand? So ein Mist!, findet Greg und hat schon bei dem Gedanken daran die Nase voll. Dabei ist das erst der Anfang seiner Probleme, denn die Klassenfahrt zur Schweiß-und-Fleiß-Farm steht an ...",
+    "link": "https://www.amazon.de/Gregs-Tagebuch-10-ein-Mist/dp/384321106X/ref=sr_1_1?__mk_de_DE=ÅMÅŽÕÑ&crid=2XZPVVJ1ATQQV&keywords=gregs+tagebuch+10&qid=1703946066&sprefix=gregs+tagebuch+10%2Caps%2C101&sr=8-1",
+    "kopien": [
+      {
+        "bibliothek": "Stadtbibliothek Bremen",
+        "status": "verliehen"
+      },
+      {
+        "bibliothek": "Stadtbibliothek Vahr",
+        "status": "ausleihbar"
+      },
+      {
+        "bibliothek": "Staats- und Universitätsbibliothek",
+        "status": "verliehen"
+      }
+    ],
+    "umfang": 224,
+    "cover": "assets/gregs10.jpg",
+    "untertitel": "Ein Comic-Roman"
   },
   {
     "id": 31,
-    "titel": "",
-    "orginaltitel": "",
-    "autor": "",
-    "verlagsort": "",
-    "jahr": "",
-    "Anmerkung": "",
-    "isbn": "",
-    "ean": "",
-    "preis": "",
-    "interessenkreis": "",
-    "beschreibung": "",
-    "link": "",
-    "kopien": "",
-    "umfang": "",
-    "cover": "",
+    "titel": "Dune – Der Wüstenplanet",
+    "orginaltitel": "Dune – The desert planet",
+    "autor": "Frank Herbert",
+    "verlagsort": "Heyne Verlag",
+    "jahr": "2021",
+    "Anmerkung": "Ab 16 Jahren",
+    "isbn": "3453321227",
+    "ean": "978-3453321229",
+    "preis": 12.99,
+    "interessenkreis": "Science Fiction",
+    "beschreibung": "Das atemberaubende Panorama unserer Zivilisation in ferner Zukunft - und eine Welt, die man nie vergisst: Arrakis, der Wüstenplanet. Einzigartig, herrlich – und grausam. Und doch haben es die Menschen geschafft, sich dieser lebensfeindlichen Umwelt anzupassen ...\nFrank Herberts Bestseller gilt als Meilenstein der Zukunftsliteratur – ein monumentales Epos, das jede Generation von Leserinnen und Lesern neu für sich entdeckt. Im September 2021 startete die spektakuläre Neuverfilmung dieses Klassikers in den Kinos!",
+    "link": "https://www.amazon.de/Dune-Wüstenplanet-Roman-übersetzt-Band/dp/3453321227/ref=sr_1_1?__mk_de_DE=ÅMÅŽÕÑ&crid=VFQY4WIHRINC&keywords=dune+buch&qid=1703946573&sprefix=dune+buch%2Caps%2C94&sr=8-1",
+    "kopien": [
+      {
+        "bibliothek": "Stadtbibliothek Bremen",
+        "status": "ausleihbar"
+      },
+      {
+        "bibliothek": "Stadtbibliothek Vahr",
+        "status": "ausleihbar"
+      },
+      {
+        "bibliothek": "Staats- und Universitätsbibliothek",
+        "status": "verliehen"
+      }
+    ],
+    "umfang": 800,
+    "cover": "assets/dune.jpg",
     "untertitel": ""
   },
   {
     "id": 32,
-    "titel": "",
-    "orginaltitel": "",
-    "autor": "",
-    "verlagsort": "",
-    "jahr": "",
-    "Anmerkung": "",
-    "isbn": "",
-    "ean": "",
-    "preis": "",
-    "interessenkreis": "",
-    "beschreibung": "",
-    "link": "",
-    "kopien": "",
-    "umfang": "",
-    "cover": "",
+    "titel": "Snow Crash",
+    "orginaltitel": "Snow Crash",
+    "autor": "Neal Stephenson",
+    "verlagsort": "970L",
+    "jahr": "2000",
+    "Anmerkung": "Ab 12 Jahren",
+    "isbn": "0553380958",
+    "ean": "978-0553380958",
+    "preis": 39.99,
+    "interessenkreis": "Science Fiction",
+    "beschreibung": "Hiro lebt in einem Los Angeles, in dem der Freeway von Franchise-Unternehmen gesäumt ist, soweit das Auge reicht. Die einzige Abwechslung im Meer der Logos sind die autonomen Stadtstaaten, in denen sich gesetzestreue Bürger nicht aus ihren Villen trauen.\n\nHiro verdient seinen Lebensunterhalt als Pizzabote in den Villen und verteidigt seine Pizzen gegen Plünderer, wenn es sein muss, mit einem Satz Samuraischwerter. Sein Zuhause ist ein gemeinsamer 20 x 30 U-Stor-It. Er verbringt die meiste Zeit damit, in das Metaverse zu schauen, wo sein Avatar legendär ist.",
+    "link": "https://www.amazon.de/dp/0553380958?ascsubtag=[artid|10054.g.39358054[src|www.google.com[ch|[lt|sale[pid|a78162f2-eb95-487d-97c7-2dcd88278572&linkCode=gs2&tag=hearstmagaz01-21",
+    "kopien": [
+      {
+        "bibliothek": "Stadtbibliothek Bremen",
+        "status": "ausleihbar"
+      },
+      {
+        "bibliothek": "Staats- und Universitätsbibliothek",
+        "status": "ausleihbar"
+      }
+    ],
+    "umfang": 576,
+    "cover": "assets/snowcrash.jpg",
     "untertitel": ""
   },
   {
     "id": 33,
-    "titel": "",
-    "orginaltitel": "",
-    "autor": "",
-    "verlagsort": "",
-    "jahr": "",
+    "titel": "In den Armen der Nacht",
+    "orginaltitel": "In the arms of the night",
+    "autor": "J. D. Robb",
+    "verlagsort": "Blanvalet",
+    "jahr": "2011",
     "Anmerkung": "",
-    "isbn": "",
-    "ean": "",
-    "preis": "",
-    "interessenkreis": "",
-    "beschreibung": "",
-    "link": "",
-    "kopien": "",
-    "umfang": "",
-    "cover": "",
-    "untertitel": ""
+    "isbn": "3442369665",
+    "ean": "978-3442369669",
+    "preis": 9.99,
+    "interessenkreis": "Krimi",
+    "beschreibung": "Mitten in der Nacht trifft bei der New Yorker Polizei der ängstliche Notruf eines kleinen Mädchens ein. Eve Dallas macht sich sofort auf den Weg, doch sie kommt zu spät: Die ganze Familie Swisher ist tot, und anscheinend waren hochprofessionelle Killer am Werk, die keine Spuren hinterlassen haben. Nur ein Familienmitglied – die neunjährige Nixie – entging dem Blutbad. Als Eve das zitternde Mädchen erblickt, ist es um sie geschehen. Um jeden Preis will sie das Kind schützen, denn Nixie schwebt als einzige Augenzeugin in höchster Gefahr …",
+    "link": "https://www.amazon.de/dp/3442369665?tag=buecherdasbuc-21",
+    "kopien": [
+      {
+        "bibliothek": "Stadtbibliothek Bremen",
+        "status": "ausleihbar"
+      },
+      {
+        "bibliothek": "Staats- und Universitätsbibliothek",
+        "status": "ausleihbar"
+      }
+    ],
+    "umfang": 560,
+    "cover": "assets/indenarmen.jpg",
+    "untertitel": "Ein neuer explosiver Lady-Thriller und ein neuer Fall für Eve Dallas, der sie tief in ihre eigene Vergangenheit zurückführt"
   },
   {
     "id": 34,
-    "titel": "",
-    "orginaltitel": "",
-    "autor": "",
-    "verlagsort": "",
-    "jahr": "",
-    "Anmerkung": "",
-    "isbn": "",
-    "ean": "",
-    "preis": "",
-    "interessenkreis": "",
-    "beschreibung": "",
-    "link": "",
-    "kopien": "",
-    "umfang": "",
-    "cover": "",
+    "titel": "The Green Mile",
+    "orginaltitel": "The Green Mile",
+    "autor": "Stephen King",
+    "verlagsort": "Heyne Verlag",
+    "jahr": "2011",
+    "Anmerkung": "Ab 16 Jahren",
+    "isbn": "3453435842",
+    "ean": "978-3453435841",
+    "preis": 29.90,
+    "interessenkreis": "Krimi",
+    "beschreibung": "»The Green Mile« – so nennt sich der Todestrakt des Staatsgefängnisses Cold Mountain. John Coffey wurde zum Tode verurteilt, weil er zwei Mädchen missbraucht und ermordet haben soll. Dem Hünen wohnt aber auch eine übernatürliche Kraft inne … Kann ein Mörder zugleich ein begnadeter Heiler sein? Und wenn ja, darf oder sollte man ihn dann töten?",
+    "link": "https://www.amazon.de/dp/3453435842?tag=buecherdasbuc-21",
+    "kopien": [
+      {
+        "bibliothek": "Stadtbibliothek Bremen",
+        "status": "ausleihbar"
+      },
+      {
+        "bibliothek": "Staats- und Universitätsbibliothek",
+        "status": "verliehen"
+      }
+    ],
+    "umfang": 592,
+    "cover": "assets/thegreenmile.jpg",
     "untertitel": ""
   },
   {
     "id": 35,
-    "titel": "",
-    "orginaltitel": "",
-    "autor": "",
-    "verlagsort": "",
-    "jahr": "",
-    "Anmerkung": "",
-    "isbn": "",
-    "ean": "",
-    "preis": "",
-    "interessenkreis": "",
-    "beschreibung": "",
-    "link": "",
-    "kopien": "",
-    "umfang": "",
-    "cover": "",
-    "untertitel": ""
+    "titel": "Es",
+    "orginaltitel": "It",
+    "autor": "Stephen King",
+    "verlagsort": "Heyne Verlag",
+    "jahr": "2011",
+    "Anmerkung": "Ab 16 Jahren",
+    "isbn": "345343577X",
+    "ean": "978-3453435773",
+    "preis": 18.00,
+    "interessenkreis": "Horror",
+    "beschreibung": "In Derry, Maine, schlummert das Böse in der Kanalisation: Alle 28 Jahre wacht es auf und muss fressen. Jetzt taucht »Es« wieder empor. Sieben Freunde entschließen sich, dem Grauen entgegenzutreten und ein Ende zu setzen.",
+    "link": "https://www.amazon.de/Es-Roman-Stephen-King/dp/345343577X/ref=sr_1_1?__mk_de_DE=ÅMÅŽÕÑ&crid=20KQ6COAQH3XP&keywords=stephen+king+es&qid=1703948040&sprefix=stephen+king+es%2Caps%2C121&sr=8-1",
+    "kopien": [
+      {
+        "bibliothek": "Stadtbibliothek Bremen",
+        "status": "ausleihbar"
+      },
+      {
+        "bibliothek": "Staats- und Universitätsbibliothek",
+        "status": "verliehen"
+      }
+    ],
+    "umfang": 1536,
+    "cover": "assets/es.jpg",
+    "untertitel": "Stephen Kings Meisterwerk über die Mysterien der Kindheit und den Horror des Erwachsenseins."
   },
   {
     "id": 36,
-    "titel": "",
-    "orginaltitel": "",
-    "autor": "",
-    "verlagsort": "",
-    "jahr": "",
-    "Anmerkung": "",
-    "isbn": "",
-    "ean": "",
-    "preis": "",
-    "interessenkreis": "",
-    "beschreibung": "",
-    "link": "",
-    "kopien": "",
-    "umfang": "",
-    "cover": "",
+    "titel": "Das Haus",
+    "orginaltitel": "House of Leaves",
+    "autor": "Mark Z. Danielewski",
+    "verlagsort": "Klett-Cotta",
+    "jahr": "2007",
+    "Anmerkung": "Ab 18 Jahren",
+    "isbn": "9783608937770",
+    "ean": "978-3608937770",
+    "preis": 35.00,
+    "interessenkreis": "Horror",
+    "beschreibung": "Als der Pulitzer-Preisträger Will Navidson mit seiner Frau und den beiden Kindern in das Haus zieht, ahnt er nicht, wie hier sein Leben aus den Fugen geraten wird. Ganz beiläufig filmt er die alltäglichen Vorgänge in den Zimmern und Fluren; ganz beiläufig muss er feststellen, dass dieses Haus über Räume verfügt, die kein Grundriss verzeichnet.\n\nNachdem er bei einer ersten Erkundung dieser Räume fast den Rückweg nicht mehr findet, holt er Hilfe - ein Ingenieur und ein professioneller Höhlenforscher sollen die unermesslichen Räume im Hausinneren erforschen helfen. Und immer läuft die Kamera mit - und zeichnet auf, was über den Verstand aller Beteiligten geht und ganze Generationen von Filmkritikern und Kinogängern schaudern lassen wird.",
+    "link": "https://www.amazon.de/Haus-House-Leaves-Mark-Danielewski/dp/3608937773/ref=sr_1_1?__mk_de_DE=ÅMÅŽÕÑ&crid=2PBTTW5D7RC4R&keywords=house+of+leaves&qid=1703948182&sprefix=house+of+leaves%2Caps%2C94&sr=8-1",
+    "kopien": [
+      {
+        "bibliothek": "Stadtbibliothek Bremen",
+        "status": "verliehen"
+      },
+      {
+        "bibliothek": "Stadtbibliothek Vahr",
+        "status": "ausleihbar"
+      },
+      {
+        "bibliothek": "Staats- und Universitätsbibliothek",
+        "status": "verliehen"
+      }
+    ],
+    "umfang": 797,
+    "cover": "assets/dashaus.jpg",
     "untertitel": ""
   },
   {
     "id": 37,
-    "titel": "",
-    "orginaltitel": "",
-    "autor": "",
-    "verlagsort": "",
-    "jahr": "",
-    "Anmerkung": "",
-    "isbn": "",
-    "ean": "",
-    "preis": "",
-    "interessenkreis": "",
-    "beschreibung": "",
-    "link": "",
-    "kopien": "",
-    "umfang": "",
-    "cover": "",
-    "untertitel": ""
+    "titel": "Spuk in Hill House",
+    "orginaltitel": "The Haunting of Hill House",
+    "autor": "Shirley Jackson",
+    "verlagsort": "Festa Verlag",
+    "jahr": "2019",
+    "Anmerkung": "Ab 18 Jahren",
+    "isbn": "3865527078",
+    "ean": "978-3865527073",
+    "preis": 19.99,
+    "interessenkreis": "Horror",
+    "beschreibung": "Vier Menschen betreten die alte Villa, die als Hill House bekannt ist. Sie wollen die übernatürlichen Phänomene, die sich angeblich darin ereignen, untersuchen. Die vier werden etwas Böses erleben, das sich ihrer Kontrolle und ihrem Verstand entzieht. Sie können unmöglich wissen, dass sie von dem Haus selbst angelockt wurden und welche bösen Pläne es verfolgt …",
+    "link": "https://www.amazon.de/Spuk-Hill-House-Shirley-Jackson/dp/3865527078/ref=sr_1_1?__mk_de_DE=ÅMÅŽÕÑ&crid=3JT832LGNBE3J&keywords=spuk+auf+hill+house&qid=1703948367&s=books&sprefix=spuk+auf+hill+house%2Cstripbooks%2C82&sr=1-1",
+    "kopien": [
+      {
+        "bibliothek": "Stadtbibliothek Bremen",
+        "status": "verliehen"
+      },
+      {
+        "bibliothek": "Stadtbibliothek Vahr",
+        "status": "ausleihbar"
+      },
+      {
+        "bibliothek": "Staats- und Universitätsbibliothek",
+        "status": "verliehen"
+      }
+    ],
+    "umfang": 320,
+    "cover": "assets/spukinhillhouse.jpg",
+    "untertitel": "Das Meisterwerk der 'Queen of Horror'"
   },
   {
     "id": 38,
-    "titel": "",
-    "orginaltitel": "",
-    "autor": "",
-    "verlagsort": "",
-    "jahr": "",
-    "Anmerkung": "",
-    "isbn": "",
-    "ean": "",
-    "preis": "",
-    "interessenkreis": "",
-    "beschreibung": "",
-    "link": "",
-    "kopien": "",
-    "umfang": "",
-    "cover": "",
+    "titel": "Biss zum Morgengrauen",
+    "orginaltitel": "Biss zum Morgengrauen",
+    "autor": "Stephenie Meyer",
+    "verlagsort": "Carlsen",
+    "jahr": "2021",
+    "Anmerkung": "Kundenempfehlung: ab 9 Jahr(en)",
+    "isbn": "3551319715",
+    "ean": "978-3551319715",
+    "preis": 19.99,
+    "interessenkreis": "Romanzen",
+    "beschreibung": "»Es gab drei Dinge, deren ich mir ganz sicher war: Erstens, Edward war ein Vampir. Zweitens, ein Teil von ihm - und ich wusste nicht, wie mächtig dieser Teil war - dürstete nach meinem Blut. Und drittens, ich war bedingungslos und unwiderruflich in ihn verliebt.«\n\nMit Romantik oder gar Leidenschaft hätte Isabella Swan ihren Umzug in die langweilige, verregnete Kleinstadt Forks kaum in Verbindung gebracht. Bis sie den undurchschaubaren und unwiderstehlichen Edward kennenlernt. Mit aller Macht fühlt sie sich zu ihm hingezogen. Und riskiert dabei mehr als ihr Leben …",
+    "link": "https://www.amazon.de/Biss-zum-Morgengrauen-Bella-Edward/dp/3551319715/ref=sr_1_1?crid=1B3XSRN0O6OD6&keywords=twilight&qid=1703948715&s=books&sprefix=twil%2Cstripbooks%2C140&sr=1-1",
+    "kopien": [
+      {
+        "bibliothek": "Stadtbibliothek Bremen",
+        "status": "ausleihbar"
+      },
+      {
+        "bibliothek": "Staats- und Universitätsbibliothek",
+        "status": "ausleihbar"
+      }
+    ],
+    "umfang": 512,
+    "cover": "assets/twilight1.jpg",
     "untertitel": ""
   },
   {
     "id": 39,
-    "titel": "",
-    "orginaltitel": "",
-    "autor": "",
-    "verlagsort": "",
-    "jahr": "",
-    "Anmerkung": "",
-    "isbn": "",
-    "ean": "",
-    "preis": "",
-    "interessenkreis": "",
-    "beschreibung": "",
-    "link": "",
-    "kopien": "",
-    "umfang": "",
-    "cover": "",
+    "titel": "Biss zur Mittagsstunde",
+    "orginaltitel": "Biss zur Mittagsstunde",
+    "autor": "Stephenie Meyer",
+    "verlagsort": "Carlsen",
+    "jahr": "2021",
+    "Anmerkung": "Kundenempfehlung: ab 9 Jahr(en)",
+    "isbn": "3551319723",
+    "ean": "978-3551319722",
+    "preis": 19.99,
+    "interessenkreis": "Romanzen",
+    "beschreibung": "Für immer mit Edward zusammen zu sein – Bellas Traum scheint wahr geworden! Doch nach einem kleinen, aber blutigen Zwischenfall findet er ein jähes Ende. Edward muss sie verlassen. Für immer. Bella zerbricht beinahe daran, nur die Freundschaft zu Jacob gibt ihr Kraft. Da erfährt Bella, dass Edward in höchster Gefahr schwebt. Sie muss zu ihm, rechtzeitig, bis zur Mittagsstunde …",
+    "link": "https://www.amazon.de/Biss-zur-Mittagsstunde-Bella-Edward/dp/3551319723/ref=sr_1_1?__mk_de_DE=ÅMÅŽÕÑ&crid=3J3ILFC57ABCB&keywords=twilight+2&qid=1703948852&s=books&sprefix=twilight+2%2Cstripbooks%2C89&sr=1-1",
+    "kopien": [
+      {
+        "bibliothek": "Stadtbibliothek Bremen",
+        "status": "ausleihbar"
+      },
+      {
+        "bibliothek": "Staats- und Universitätsbibliothek",
+        "status": "ausleihbar"
+      }
+    ],
+    "umfang": 560,
+    "cover": "assets/twilight2.jpg",
     "untertitel": ""
   },
   {
     "id": 40,
-    "titel": "",
-    "orginaltitel": "",
-    "autor": "",
-    "verlagsort": "",
-    "jahr": "",
-    "Anmerkung": "",
-    "isbn": "",
-    "ean": "",
-    "preis": "",
-    "interessenkreis": "",
-    "beschreibung": "",
-    "link": "",
-    "kopien": "",
-    "umfang": "",
-    "cover": "",
+    "titel": "Biss zum Abendrot",
+    "orginaltitel": "Biss zum Abendrot",
+    "autor": "Stephenie Meyer",
+    "verlagsort": "Carlsen",
+    "jahr": "2021",
+    "Anmerkung": "Kundenempfehlung: ab 9 Jahr(en)",
+    "isbn": "3551319731",
+    "ean": "978-3551319739",
+    "preis": 22.99,
+    "interessenkreis": "Romanzen",
+    "beschreibung": "Bellas Leben ist in Gefahr. Ein offensichtlich blutrünstiger Vampir sinnt auf Rache. Und seine Spuren führen zu Bella. Aber damit nicht genug: Nachdem sie wieder mit Edward zusammen ist, muss sie sich zwischen ihrer Liebe zu ihm und ihrer Freundschaft mit Jacob entscheiden – doch damit könnte sie den uralten Kampf zwischen Vampiren und Werwölfen neu entfachen …",
+    "link": "https://www.amazon.de/Biss-zum-Abendrot-Bella-Edward/dp/3551319731/ref=sr_1_1?__mk_de_DE=ÅMÅŽÕÑ&crid=3SYM4PX55DZM7&keywords=twilight+3&qid=1703948983&s=books&sprefix=twilight+3%2Cstripbooks%2C114&sr=1-1",
+    "kopien": [
+      {
+        "bibliothek": "Stadtbibliothek Bremen",
+        "status": "ausleihbar"
+      },
+      {
+        "bibliothek": "Staats- und Universitätsbibliothek",
+        "status": "ausleihbar"
+      }
+    ],
+    "umfang": 624,
+    "cover": "assets/twilight3.jpg",
     "untertitel": ""
   }
 ]
