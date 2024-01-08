@@ -1,4 +1,5 @@
 import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
 
 class ImageTitle extends StatelessWidget {
   final ImageProvider buchBild;
@@ -17,7 +18,7 @@ class ImageTitle extends StatelessWidget {
         Image(
           image: buchBild,
           height: 150.0,
-          width: 100.0,
+          width: 105.0,
         ),
         SizedBox(
           height: 10.0,
@@ -25,7 +26,7 @@ class ImageTitle extends StatelessWidget {
         Text(
             text,
           style: TextStyle(
-            fontSize: 10.0,
+            fontSize: 12.0,
             fontWeight: FontWeight.bold,
           ),
         ),

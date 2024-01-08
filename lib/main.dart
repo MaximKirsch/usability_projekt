@@ -110,18 +110,18 @@ class _suchFunktionState extends State<suchFunktion> {
               ],
             ),
             const SizedBox(
-              height: 20.0,
+              height: 10.0,
             ),
             const Text(
               'Medienarten',
               style: TextStyle(
-                fontSize: 24.0,
+                fontSize: 22.0,
                 color: Colors.black,
                 fontWeight: FontWeight.bold,
               ),
             ),
             const SizedBox(
-              height: 18.0,
+              height: 15.0,
             ),
             Container(
               alignment: Alignment.center,
@@ -130,11 +130,11 @@ class _suchFunktionState extends State<suchFunktion> {
                 children: [
                   CustomChip(icon: Icons.book, text: 'Bücher'),
                   SizedBox(
-                    width: 8.0,
+                    width: 5.0,
                   ),
                   CustomChip(icon: Icons.games, text: 'Spiele'),
                   SizedBox(
-                    width: 8.0,
+                    width: 5.0,
                   ),
                   CustomChip(icon: Icons.movie, text: 'Filme')
                 ],
@@ -147,11 +147,11 @@ class _suchFunktionState extends State<suchFunktion> {
                 children: [
                   CustomChip(icon: Icons.album, text: 'CDs'),
                   SizedBox(
-                    width: 8.0,
+                    width: 5.0,
                   ),
                   CustomChip(icon: Icons.library_books, text: 'Zeitschriften'),
                   SizedBox(
-                    width: 8.0,
+                    width: 5.0,
                   ),
                   CustomChip(icon: Icons.music_note, text: 'Noten'),
                 ],
@@ -164,26 +164,23 @@ class _suchFunktionState extends State<suchFunktion> {
                 children: [
                   CustomChip(icon: Icons.smartphone, text: 'eMedien'),
                   SizedBox(
-                    width: 8.0,
+                    width: 5.0,
                   ),
                   CustomChip(icon: Icons.disc_full, text: 'CD/DVD-ROMs'),
                 ],
               ),
             ),
             const SizedBox(
-              height: 20.0,
+              height: 15.0,
             ),
             Container(
               alignment: Alignment.centerRight,
               child: const Row(
                 children: [
-                  SizedBox(
-                    height: 20.0,
-                  ),
                   Text(
                     'Aktuelle Bücher-Trends',
                     style: TextStyle(
-                      fontSize: 24.0,
+                      fontSize: 22.0,
                       color: Colors.black,
                       fontWeight: FontWeight.bold,
                     ),
@@ -192,33 +189,70 @@ class _suchFunktionState extends State<suchFunktion> {
               ),
             ),
             SizedBox(
-              height: 18.0,
+              height: 15.0,
             ),
             const SingleChildScrollView(
               scrollDirection: Axis.horizontal,
               child: Row(
                 children: [
                   ImageTitle(
-                      buchBild: AssetImage('assets/book1_loss-of-reason.jpg'),
-                      text: 'LOSS OF REASON'),
+                      buchBild: AssetImage('assets/derprofessor.jpg'),
+                      text: 'Der Professor'),
                   SizedBox(
                     width: 20.0,
                   ),
                   ImageTitle(
-                      buchBild: AssetImage('assets/book1_loss-of-reason.jpg'),
-                      text: 'LOSS OF REASON'),
+                    buchBild: AssetImage('assets/dune.jpg'),
+                    text: 'Dune',
+                  ),
                   SizedBox(
                     width: 20.0,
                   ),
                   ImageTitle(
-                      buchBild: AssetImage('assets/book1_loss-of-reason.jpg'),
-                      text: 'LOSS OF REASON'),
+                      buchBild: AssetImage('assets/es.jpg'),
+                      text: 'Es'),
                   SizedBox(
                     width: 20.0,
                   ),
                   ImageTitle(
-                      buchBild: AssetImage('assets/book1_loss-of-reason.jpg'),
-                      text: 'LOSS OF REASON'),
+                      buchBild: AssetImage('assets/farmdertiere.jpg'),
+                      text: 'Farm der Tiere'),
+                  SizedBox(
+                    width: 20.0,
+                  ),
+                  ImageTitle(
+                      buchBild: AssetImage('assets/thegreenmile.jpg'),
+                      text: 'The Green Mile'),
+                  SizedBox(
+                    width: 20.0,
+                  ),
+                  ImageTitle(
+                      buchBild: AssetImage('assets/gregs10.jpg'),
+                      text: 'So Ein Mist!'),
+                  SizedBox(
+                    width: 20.0,
+                  ),
+                  ImageTitle(
+                      buchBild: AssetImage('assets/herrderfliegen.jpg'),
+                      text: 'Herr der Fliegen'),
+                ],
+              ),
+            ),
+            const SizedBox(
+              height: 15.0,
+            ),
+            Container(
+              alignment: Alignment.centerRight,
+              child: const Row(
+                children: [
+                  Text(
+                    'Top-Autoren',
+                    style: TextStyle(
+                      fontSize: 22.0,
+                      color: Colors.black,
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
                 ],
               ),
             ),

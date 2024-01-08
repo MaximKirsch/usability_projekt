@@ -26,7 +26,7 @@ class CustomChip extends StatelessWidget {
       label: Text(
         text,
         style: const TextStyle(
-          fontSize: 18.0,
+          fontSize: 16.0,
           color: Colors.black,
           fontWeight: FontWeight.w500,
         ),
