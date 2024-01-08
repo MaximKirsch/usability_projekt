@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:usability_projekt/detailScreen.dart';
 import 'package:usability_projekt/library.dart';
 
 import 'custom_chip.dart';
@@ -203,8 +204,7 @@ class _suchFunktionState extends State<suchFunktion> {
                             children: [
                               GestureDetector(
                                 onTap: () {
-                                  // TODO: zur Detailseite weiterleiten
-                                  print(e.titel);
+                                  Navigator.push(context, MaterialPageRoute(builder: (context) => DetailScreen(book: e)));
                                 },
                                 child: ImageTitle(
                                   buchBild: AssetImage(e.cover!),
