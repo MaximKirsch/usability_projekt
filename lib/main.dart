@@ -1,5 +1,6 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
+import 'package:usability_projekt/library.dart';
 
 import 'custom_chip.dart';
 import 'image_title.dart';
@@ -16,6 +17,7 @@ class suchFunktion extends StatefulWidget {
 
 class _suchFunktionState extends State<suchFunktion> {
   final TextEditingController nutzerEingabe = TextEditingController();
+  Library? library;
 
   @override
   Widget build(BuildContext context) {
@@ -191,51 +193,36 @@ class _suchFunktionState extends State<suchFunktion> {
             SizedBox(
               height: 15.0,
             ),
-            const SingleChildScrollView(
+            SingleChildScrollView(
               scrollDirection: Axis.horizontal,
               child: Row(
-                children: [
-                  ImageTitle(
-                      buchBild: AssetImage('assets/derprofessor.jpg'),
-                      text: 'Der Professor'),
-                  SizedBox(
-                    width: 20.0,
-                  ),
-                  ImageTitle(
-                    buchBild: AssetImage('assets/dune.jpg'),
-                    text: 'Dune',
-                  ),
-                  SizedBox(
-                    width: 20.0,
-                  ),
-                  ImageTitle(
-                      buchBild: AssetImage('assets/es.jpg'),
-                      text: 'Es'),
-                  SizedBox(
-                    width: 20.0,
-                  ),
-                  ImageTitle(
-                      buchBild: AssetImage('assets/farmdertiere.jpg'),
-                      text: 'Farm der Tiere'),
-                  SizedBox(
-                    width: 20.0,
-                  ),
-                  ImageTitle(
-                      buchBild: AssetImage('assets/thegreenmile.jpg'),
-                      text: 'The Green Mile'),
-                  SizedBox(
-                    width: 20.0,
-                  ),
-                  ImageTitle(
-                      buchBild: AssetImage('assets/gregs10.jpg'),
-                      text: 'So Ein Mist!'),
-                  SizedBox(
-                    width: 20.0,
-                  ),
-                  ImageTitle(
-                      buchBild: AssetImage('assets/herrderfliegen.jpg'),
-                      text: 'Herr der Fliegen'),
-                ],
+                children: library?.items
+                        ?.take(10)
+                        .map(
+                          (e) => Row(
+                            children: [
+                              GestureDetector(
+                                onTap: () {
+                                  // TODO: zur Detailseite weiterleiten
+                                  print(e.titel);
+                                },
+                                child: ImageTitle(
+                                  buchBild: AssetImage(e.cover!),
+                                  text: e.titel!,
+                                ),
+                              ),
+                              const SizedBox(width: 20),
+                            ],
+                          ),
+                        )
+                        .toList() ??
+                    [
+                      Center(
+                        child: CircularProgressIndicator(
+                          color: Colors.grey[900],
+                        ),
+                      ),
+                    ],
               ),
             ),
             const SizedBox(
@@ -260,5 +247,23 @@ class _suchFunktionState extends State<suchFunktion> {
         ),
       ),
     );
+  }
+
+  Future<Library> _getLibrary() async {
+    String json = await rootBundle.loadString('assets/dummydata.json');
+    return libraryFromJson(json);
+  }
+
+  @override
+  void initState() {
+    _getLibrary().then(
+      (library) => {
+        setState(() {
+          this.library = library;
+          this.library?.items?.shuffle();
+        })
+      },
+    );
+    super.initState();
   }
 }

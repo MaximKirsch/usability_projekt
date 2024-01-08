@@ -13,24 +13,31 @@ class ImageTitle extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Column(
-      children: [
-        Image(
-          image: buchBild,
-          height: 150.0,
-          width: 105.0,
-        ),
-        SizedBox(
-          height: 10.0,
-        ),
-        Text(
-            text,
-          style: TextStyle(
-            fontSize: 12.0,
-            fontWeight: FontWeight.bold,
+    const width = 105.0;
+    return SizedBox(
+      width: width + 10,
+      child: Column(
+        children: [
+          Image(
+            image: buchBild,
+            height: 150.0,
+            width: width,
+            fit: BoxFit.cover,
           ),
-        ),
-      ],
+          const SizedBox(
+            height: 10.0,
+          ),
+          Text(
+            text,
+            textAlign: TextAlign.center,
+            style: const TextStyle(
+              fontSize: 12.0,
+              fontWeight: FontWeight.bold,
+              overflow: TextOverflow.ellipsis,
+            ),
+          ),
+        ],
+      ),
     );
   }
 }
