@@ -18,20 +18,25 @@ class ImageTitle extends StatelessWidget {
       width: width + 10,
       child: Column(
         children: [
-          Image(
-            image: buchBild,
-            height: 150.0,
-            width: width,
-            fit: BoxFit.cover,
+          ClipRRect(
+            borderRadius: BorderRadius.circular(10),
+            child: SizedBox(
+              child: Image(
+                image: buchBild,
+                height: 150.0,
+                width: width,
+                fit: BoxFit.cover,
+              ),
+            ),
           ),
-          const SizedBox(
+          SizedBox(
             height: 10.0,
           ),
           Text(
             text,
             textAlign: TextAlign.center,
             style: const TextStyle(
-              fontSize: 12.0,
+              fontSize: 15.0,
               fontWeight: FontWeight.bold,
               overflow: TextOverflow.ellipsis,
             ),

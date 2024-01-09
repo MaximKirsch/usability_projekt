@@ -15,6 +15,9 @@ class DetailScreen extends StatelessWidget {
     return Scaffold(
       resizeToAvoidBottomInset: false,
       appBar: AppBar(
+        iconTheme: const IconThemeData(
+          color: Colors.white,
+        ),
         backgroundColor: Colors.blueGrey,
         title: const Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -22,7 +25,7 @@ class DetailScreen extends StatelessWidget {
             Spacer(),
             Icon(
               Icons.favorite_border_outlined,
-              color: Colors.black,
+              color: Colors.white,
               size: 30.0,
             ),
           ],
@@ -38,34 +41,175 @@ class DetailScreen extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.start,
             children: [
               Padding(
-                padding: EdgeInsets.only(top: 20),
-                child: ClipRRect(
-                  borderRadius: BorderRadius.circular(20),
-                  child: SizedBox(
-                    height: 235.0,
-                    width: 170,
-                    child: Image(
-                      image: AssetImage(book.cover!),
-                      height: 235.0,
+                padding: const EdgeInsets.only(top: 15),
+                child: Container(
+                  decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(20),
+                      boxShadow: const [
+                        BoxShadow(
+                          color: Colors.black12,
+                          blurRadius: 4,
+                          offset: Offset(5,
+                              9), // Shadow position// changes position of shadow
+                        ),
+                      ]),
+                  child: ClipRRect(
+                    borderRadius: BorderRadius.circular(20),
+                    child: SizedBox(
+                      height: 245.0,
                       width: 170,
-                      fit: BoxFit.cover,
+                      child: Image(
+                        image: AssetImage(book.cover!),
+                        height: 235.0,
+                        width: 170,
+                        fit: BoxFit.cover,
+                      ),
                     ),
                   ),
                 ),
               ),
               Padding(
-                padding: EdgeInsets.only(top: 40),
+                padding: const EdgeInsets.only(top: 35),
+                child: SizedBox(
+                  width: 250,
+                  child: Container(
+                    alignment: Alignment.center,
+                    child: SingleChildScrollView(
+                      scrollDirection: Axis.horizontal,
+                      child: Text(
+                        book.titel!,
+                        textAlign: TextAlign.center,
+                        style: const TextStyle(
+                          fontSize: 22.0,
+                          color: Colors.white70,
+                          fontWeight: FontWeight.bold,
+                          overflow: TextOverflow.ellipsis,
+                        ),
+                      ),
+                    ),
+                  ),
+                ),
+              ),
+              Padding(
+                padding: const EdgeInsets.only(top: 8),
                 child: Text(
-                  book.titel!,
+                  'Von ' + book.autor!,
                   textAlign: TextAlign.center,
                   style: const TextStyle(
-                    fontSize: 20.0,
-                    color: Colors.white,
+                    fontSize: 14.0,
+                    color: Colors.white54,
                     fontWeight: FontWeight.bold,
                     overflow: TextOverflow.ellipsis,
                   ),
                 ),
               ),
+              Padding(
+                padding: EdgeInsets.only(top: 25),
+                child: Container(
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                    crossAxisAlignment: CrossAxisAlignment.center,
+                    children: [
+                      Column(
+                        children: [
+                          Text(
+                            'Rating',
+                            textAlign: TextAlign.center,
+                            style: const TextStyle(
+                              fontSize: 14.0,
+                              color: Colors.white54,
+                              fontWeight: FontWeight.bold,
+                              overflow: TextOverflow.ellipsis,
+                            ),
+                          ),
+                          Text(
+                            '4.7',
+                            textAlign: TextAlign.center,
+                            style: const TextStyle(
+                              fontSize: 15.0,
+                              color: Colors.white70,
+                              fontWeight: FontWeight.bold,
+                              overflow: TextOverflow.ellipsis,
+                            ),
+                          ),
+                        ],
+                      ),
+                      Column(
+                        children: [
+                          Text(
+                            'Seiten',
+                            textAlign: TextAlign.center,
+                            style: const TextStyle(
+                              fontSize: 14.0,
+                              color: Colors.white54,
+                              fontWeight: FontWeight.bold,
+                              overflow: TextOverflow.ellipsis,
+                            ),
+                          ),
+                          Text(
+                            book.umfang.toString(),
+                            textAlign: TextAlign.center,
+                            style: const TextStyle(
+                              fontSize: 15.0,
+                              color: Colors.white70,
+                              fontWeight: FontWeight.bold,
+                              overflow: TextOverflow.ellipsis,
+                            ),
+                          ),
+                        ],
+                      ),
+                      Column(
+                        children: [
+                          Text(
+                            'Sprache',
+                            textAlign: TextAlign.center,
+                            style: const TextStyle(
+                              fontSize: 14.0,
+                              color: Colors.white54,
+                              fontWeight: FontWeight.bold,
+                              overflow: TextOverflow.ellipsis,
+                            ),
+                          ),
+                          Text(
+                            'DE',
+                            textAlign: TextAlign.center,
+                            style: const TextStyle(
+                              fontSize: 15.0,
+                              color: Colors.white70,
+                              fontWeight: FontWeight.bold,
+                              overflow: TextOverflow.ellipsis,
+                            ),
+                          ),
+                        ],
+                      ),
+                      Column(
+                        children: [
+                          Text(
+                            'Audio',
+                            textAlign: TextAlign.center,
+                            style: const TextStyle(
+                              fontSize: 14.0,
+                              color: Colors.white54,
+                              fontWeight: FontWeight.bold,
+                              overflow: TextOverflow.ellipsis,
+                            ),
+                          ),
+                          Text(
+                            '01 std',
+                            textAlign: TextAlign.center,
+                            style: const TextStyle(
+                              fontSize: 15.0,
+                              color: Colors.white70,
+                              fontWeight: FontWeight.bold,
+                              overflow: TextOverflow.ellipsis,
+                            ),
+                          ),
+                        ],
+                      ),
+                    ],
+                  ),
+                ),
+              )
             ],
           ),
         ),
