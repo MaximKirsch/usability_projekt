@@ -34,7 +34,7 @@ class DetailScreen extends StatelessWidget {
       body: Container(
         color: Colors.blueGrey,
         child: FractionallySizedBox(
-          heightFactor: 0.65,
+          heightFactor: 0.72,
           widthFactor: 1,
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.center,
@@ -69,9 +69,9 @@ class DetailScreen extends StatelessWidget {
                 ),
               ),
               Padding(
-                padding: const EdgeInsets.only(top: 35),
+                padding: const EdgeInsets.only(top: 30),
                 child: SizedBox(
-                  width: 250,
+                  width: 300,
                   child: Container(
                     alignment: Alignment.center,
                     child: SingleChildScrollView(
@@ -80,7 +80,7 @@ class DetailScreen extends StatelessWidget {
                         book.titel!,
                         textAlign: TextAlign.center,
                         style: const TextStyle(
-                          fontSize: 22.0,
+                          fontSize: 27.0,
                           color: Colors.white70,
                           fontWeight: FontWeight.bold,
                           overflow: TextOverflow.ellipsis,
