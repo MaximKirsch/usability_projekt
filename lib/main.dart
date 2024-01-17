@@ -1,16 +1,17 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:usability_projekt/detailScreen.dart';
+import 'package:usability_projekt/custom_chip.dart';
+import 'package:usability_projekt/detail/detail_view.dart';
 import 'package:usability_projekt/image_authors.dart';
+import 'package:usability_projekt/image_title.dart';
 import 'package:usability_projekt/library.dart';
 
-import 'custom_chip.dart';
-import 'image_title.dart';
-
-void main() => runApp(MaterialApp(
-      debugShowCheckedModeBanner: false,
-      home: HomeView(),
-    ));
+void main() => runApp(
+      MaterialApp(
+        debugShowCheckedModeBanner: false,
+        home: HomeView(),
+      ),
+    );
 
 class HomeView extends StatefulWidget {
   const HomeView({super.key});
@@ -22,13 +23,16 @@ class HomeView extends StatefulWidget {
 class _HomeViewState extends State<HomeView> {
   final TextEditingController nutzerEingabe = TextEditingController();
   Library? library;
-  List<String> suggestions = [];
+  List<Items> suggestions = [];
+  SearchController searchController = SearchController();
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       resizeToAvoidBottomInset: false,
       appBar: AppBar(
+        elevation: 0,
+        backgroundColor: Colors.white,
         title: const Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
@@ -73,44 +77,90 @@ class _HomeViewState extends State<HomeView> {
                       padding: const EdgeInsets.all(8.0),
                       child: SearchAnchor(
                         isFullScreen: false,
-                        builder: (BuildContext context,
-                            SearchController controller) {
+                        searchController: searchController,
+                        builder: (
+                          BuildContext context,
+                          SearchController controller,
+                        ) {
                           return SearchBar(
+                            onTap: () {
+                              searchController.openView();
+                            },
+                            elevation: MaterialStatePropertyAll<double>(0.0),
                             shape: MaterialStatePropertyAll<
                                 RoundedRectangleBorder>(
                               RoundedRectangleBorder(
                                 borderRadius:
                                     BorderRadiusDirectional.circular(12),
+                                side: BorderSide(
+                                  color: Colors.grey[300]!,
+                                  width: 1.0,
+                                ),
                               ),
                             ),
                             backgroundColor: MaterialStatePropertyAll<Color>(
-                                Color.fromRGBO(235, 235, 234, 1.0)),
-                            controller: controller,
+                              Color.fromRGBO(240, 240, 240, 1.0),
+                            ),
                             padding: MaterialStatePropertyAll<EdgeInsets>(
-                                EdgeInsets.symmetric(horizontal: 16.0)),
+                              EdgeInsets.symmetric(horizontal: 10.0),
+                            ),
                             hintText: 'Titel, Autor, Begriff, ISBN, Jahr',
-                            onChanged: (input) {
-                              setState(() {
-                                suggestions.clear();
-                                suggestions = _getSuggestions(input);
-                                controller.openView();
-                              });
-                            },
-                            leading: Icon(Icons.search),
+                            hintStyle: MaterialStatePropertyAll<TextStyle>(
+                              TextStyle(
+                                fontSize: 16.0,
+                                color: Colors.grey[600],
+                              ),
+                            ),
+                            leading: Icon(
+                              Icons.search,
+                              color: Colors.grey[600],
+                            ),
                           );
                         },
-                        suggestionsBuilder: (BuildContext context,
-                            SearchController controller) {
-                          return suggestions
-                              .map((e) => ListTile(
-                                    title: Text(e),
-                                    onTap: () {
-                                      setState(() {
-                                        controller.closeView(e);
-                                      });
+                        suggestionsBuilder: (context, controller) {
+                          return [
+                            FutureBuilder(
+                              future: Future.delayed(
+                                const Duration(seconds: 1),
+                                () => suggestions,
+                              ),
+                              builder: (context, snapshot) {
+                                if (snapshot.hasData) {
+                                  return ListView.builder(
+                                    shrinkWrap: true,
+                                    itemCount: suggestions.length,
+                                    itemBuilder: (context, index) {
+                                      return ListTile(
+                                        title: Text(suggestions[index].titel!),
+                                        leading: Image.asset(
+                                          suggestions[index].cover!,
+                                          width: 50,
+                                          height: 100,
+                                          fit: BoxFit.cover,
+                                        ),
+                                        onTap: () {
+                                          Navigator.push(
+                                            context,
+                                            MaterialPageRoute(
+                                              builder: (context) => DetailView(
+                                                book: suggestions[index],
+                                              ),
+                                            ),
+                                          );
+                                        },
+                                      );
                                     },
-                                  ))
-                              .toList();
+                                  );
+                                } else {
+                                  return const Center(
+                                    child: CircularProgressIndicator(
+                                      color: Colors.grey,
+                                    ),
+                                  );
+                                }
+                              },
+                            ),
+                          ];
                         },
                       ),
                     ),
@@ -158,7 +208,9 @@ class _HomeViewState extends State<HomeView> {
                       width: 5.0,
                     ),
                     CustomChip(
-                        icon: Icons.library_books, text: 'Zeitschriften'),
+                      icon: Icons.library_books,
+                      text: 'Zeitschriften',
+                    ),
                     SizedBox(
                       width: 5.0,
                     ),
@@ -211,10 +263,12 @@ class _HomeViewState extends State<HomeView> {
                                 GestureDetector(
                                   onTap: () {
                                     Navigator.push(
-                                        context,
-                                        MaterialPageRoute(
-                                            builder: (context) =>
-                                                DetailScreen(book: e)));
+                                      context,
+                                      MaterialPageRoute(
+                                        builder: (context) =>
+                                            DetailView(book: e),
+                                      ),
+                                    );
                                   },
                                   child: ImageTitle(
                                     buchBild: AssetImage(e.cover!),
@@ -254,18 +308,22 @@ class _HomeViewState extends State<HomeView> {
                 child: Row(
                   children: [
                     ImageAuthors(
-                        autorBild: AssetImage('assets/autoren/erhard.jpeg')),
+                      autorBild: AssetImage('assets/autoren/erhard.jpeg'),
+                    ),
                     ImageAuthors(
-                        autorBild:
-                            AssetImage('assets/autoren/George_Orwell.jpg')),
+                      autorBild: AssetImage('assets/autoren/George_Orwell.jpg'),
+                    ),
                     ImageAuthors(
-                        autorBild: AssetImage('assets/autoren/JK.jpg')),
+                      autorBild: AssetImage('assets/autoren/JK.jpg'),
+                    ),
                     ImageAuthors(
-                        autorBild:
-                            AssetImage('assets/autoren/John_Katzenbach.jpg')),
+                      autorBild:
+                          AssetImage('assets/autoren/John_Katzenbach.jpg'),
+                    ),
                     ImageAuthors(
-                        autorBild:
-                            AssetImage('assets/autoren/Sascha_Feuchert.jpg')),
+                      autorBild:
+                          AssetImage('assets/autoren/Sascha_Feuchert.jpg'),
+                    ),
                   ],
                 ),
               ),
@@ -283,6 +341,7 @@ class _HomeViewState extends State<HomeView> {
 
   @override
   void initState() {
+    _handleSearchEvents();
     _getLibrary().then(
       (library) => {
         setState(() {
@@ -294,19 +353,26 @@ class _HomeViewState extends State<HomeView> {
     super.initState();
   }
 
-  List<String> _getSuggestions(String input) {
-    List<String> suggestionList = [];
+  void _handleSearchEvents() {
+    searchController.addListener(() {
+      setState(() {
+        suggestions = _getSuggestions(searchController.text);
+      });
+    });
+  }
+
+  List<Items> _getSuggestions(String input) {
+    List<Items> suggestionList = [];
     if (library != null && library!.items != null) {
-      for (var item in library!.items!) {
+      for (final item in library!.items!) {
         if (item.titel!.toLowerCase().contains(input.toLowerCase()) ||
             item.autor!.toLowerCase().contains(input.toLowerCase()) ||
             item.isbn!.toLowerCase().contains(input.toLowerCase()) ||
             item.jahr!.toLowerCase().contains(input.toLowerCase())) {
-          suggestionList.add(item.titel!);
+          suggestionList.add(item);
         }
       }
     }
-
     return suggestionList;
   }
 }
