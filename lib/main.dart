@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:ionicons/ionicons.dart';
+import 'package:unicons/unicons.dart';
+import 'package:usability_projekt/common/colors.dart';
 import 'package:usability_projekt/custom_chip.dart';
 import 'package:usability_projekt/detail/detail_view.dart';
 import 'package:usability_projekt/image_authors.dart';
@@ -10,6 +13,7 @@ void main() => runApp(
       MaterialApp(
         debugShowCheckedModeBanner: false,
         home: HomeView(),
+        color: Colors.white,
       ),
     );
 
@@ -25,42 +29,186 @@ class _HomeViewState extends State<HomeView> {
   Library? library;
   List<Items> suggestions = [];
   SearchController searchController = SearchController();
+  var scaffoldKey = GlobalKey<ScaffoldState>();
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      key: scaffoldKey,
       resizeToAvoidBottomInset: false,
-      appBar: AppBar(
-        elevation: 0,
-        backgroundColor: Colors.white,
-        title: const Row(
-          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+      drawer: Drawer(
+        backgroundColor: greyWhiteColor,
+        surfaceTintColor: blackColor,
+        shadowColor: greyMidColor,
+        shape: RoundedRectangleBorder(
+          borderRadius: BorderRadius.circular(20.0),
+        ),
+        child: ListView(
           children: [
-            Icon(
-              Icons.menu,
-              color: Colors.black,
-              size: 40.0,
+            const SizedBox(
+              height: 50.0,
             ),
-            Spacer(),
-            Text(
-              'Home',
-              style: TextStyle(
-                color: Colors.black,
-                fontSize: 28.0,
-                fontWeight: FontWeight.bold,
+            ListTile(
+              leading: Icon(
+                Icons.home,
+                color: blackColor,
+                size: 30.0,
               ),
+              title: Text(
+                'Home',
+                style: TextStyle(
+                  color: blackColor,
+                  fontSize: 20.0,
+                ),
+              ),
+              onTap: () {
+                Navigator.pop(context);
+              },
             ),
-            Spacer(),
-            Icon(
-              Icons.account_circle_sharp,
-              color: Colors.black,
-              size: 40.0,
+            ListTile(
+              leading: Icon(
+                Icons.book,
+                color: blackColor,
+                size: 30.0,
+              ),
+              title: Text(
+                'Bücher',
+                style: TextStyle(
+                  color: blackColor,
+                  fontSize: 20.0,
+                ),
+              ),
+              onTap: () {
+                Navigator.pop(context);
+              },
+            ),
+            ListTile(
+              leading: Icon(
+                Icons.games,
+                color: blackColor,
+                size: 30.0,
+              ),
+              title: Text(
+                'Spiele',
+                style: TextStyle(
+                  color: blackColor,
+                  fontSize: 20.0,
+                ),
+              ),
+              onTap: () {
+                Navigator.pop(context);
+              },
+            ),
+            ListTile(
+              leading: Icon(
+                Icons.movie,
+                color: blackColor,
+                size: 30.0,
+              ),
+              title: Text(
+                'Filme',
+                style: TextStyle(
+                  color: blackColor,
+                  fontSize: 20.0,
+                ),
+              ),
+              onTap: () {
+                Navigator.pop(context);
+              },
+            ),
+            ListTile(
+              leading: Icon(
+                Icons.album,
+                color: blackColor,
+                size: 30.0,
+              ),
+              title: Text(
+                'CDs',
+                style: TextStyle(
+                  color: blackColor,
+                  fontSize: 20.0,
+                ),
+              ),
+              onTap: () {
+                Navigator.pop(context);
+              },
+            ),
+            ListTile(
+              leading: Icon(
+                Icons.library_books,
+                color: blackColor,
+                size: 30.0,
+              ),
+              title: Text(
+                'Zeitschriften',
+                style: TextStyle(
+                  color: blackColor,
+                  fontSize: 20.0,
+                ),
+              ),
+              onTap: () {
+                Navigator.pop(context);
+              },
+            ),
+            ListTile(
+              leading: Icon(
+                Icons.music_note,
+                color: blackColor,
+                size: 30.0,
+              ),
+              title: Text(
+                'Noten',
+                style: TextStyle(
+                  color: blackColor,
+                  fontSize: 20.0,
+                ),
+              ),
+              onTap: () {
+                Navigator.pop(context);
+              },
             ),
           ],
         ),
       ),
+      appBar: AppBar(
+        elevation: 0,
+        backgroundColor: Colors.white,
+        leading: Transform.flip(
+          flipX: true,
+          flipY: true,
+          child: IconButton(
+            icon: Icon(
+              UniconsLine.list_ui_alt,
+              color: orangeColor,
+              size: 30.0,
+            ),
+            onPressed: () {
+              scaffoldKey.currentState?.openDrawer();
+            },
+            tooltip: 'Menü',
+          ),
+        ),
+        actions: [
+          Padding(
+            padding: const EdgeInsets.only(right: 20.0),
+            child: Icon(
+              Ionicons.person_circle,
+              color: orangeColor,
+              size: 40.0,
+            ),
+          ),
+        ],
+        title: Text(
+          'Home',
+          style: TextStyle(
+            color: blackColor,
+            fontWeight: FontWeight.bold,
+          ),
+        ),
+      ),
       body: SingleChildScrollView(
-        child: Padding(
+        child: Container(
+          color: Colors.white,
           padding: const EdgeInsets.only(left: 20.0),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
@@ -99,7 +247,7 @@ class _HomeViewState extends State<HomeView> {
                               ),
                             ),
                             backgroundColor: MaterialStatePropertyAll<Color>(
-                              Color.fromRGBO(240, 240, 240, 1.0),
+                              greyWhiteColor,
                             ),
                             padding: MaterialStatePropertyAll<EdgeInsets>(
                               EdgeInsets.symmetric(horizontal: 10.0),
@@ -113,7 +261,7 @@ class _HomeViewState extends State<HomeView> {
                             ),
                             leading: Icon(
                               Icons.search,
-                              color: Colors.grey[600],
+                              color: blackColor,
                             ),
                           );
                         },
