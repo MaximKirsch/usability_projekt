@@ -20,6 +20,7 @@ void showSuccessSnackBar(
     BuildContext context, {
       String message = 'Erfolgreich',
       int duration = 3000,
+      Color color = Colors.green,
     }) {
   ScaffoldMessenger.of(context)
     ..hideCurrentSnackBar()
@@ -27,7 +28,7 @@ void showSuccessSnackBar(
       SnackBar(
         content: Text(message),
         behavior: SnackBarBehavior.floating,
-        backgroundColor: Colors.green,
+        backgroundColor: color,
       ),
     );
 }

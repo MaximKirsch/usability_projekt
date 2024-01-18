@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:ionicons/ionicons.dart';
+import 'package:usability_projekt/common/colors.dart';
 import 'package:usability_projekt/common/snackbars.dart';
 import 'package:usability_projekt/detail/widgets/widgets.dart';
 import 'package:usability_projekt/library.dart';
@@ -136,7 +138,7 @@ class _DetailViewState extends State<DetailView> {
                         'Worum geht es?',
                         style: TextStyle(
                           fontSize: 18.0,
-                          color: Colors.black87,
+                          color: blackColor,
                           fontWeight: FontWeight.bold,
                         ),
                       ),
@@ -149,8 +151,64 @@ class _DetailViewState extends State<DetailView> {
                           fontWeight: FontWeight.normal,
                         ),
                       ),
+                      SizedBox(height: 40),
+                      Text(
+                        'Informationen',
+                        style: TextStyle(
+                          fontSize: 18.0,
+                          color: blackColor,
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
+                      SizedBox(height: 20),
+                      InfoRow(
+                        icon: Ionicons.barcode_sharp,
+                        text: widget.book.isbn!,
+                      ),
+                      SizedBox(height: 20),
+                      // author
+                      InfoRow(
+                        icon: Ionicons.person,
+                        text: widget.book.autor!,
+                      ),
+                      SizedBox(height: 20),
+                      // publish date
+                      InfoRow(
+                        icon: Ionicons.calendar,
+                        text: widget.book.jahr!,
+                      ),
+                      SizedBox(height: 20),
+                      // original title
+                      InfoRow(
+                        icon: Ionicons.bookmark,
+                        text: widget.book.orginaltitel!,
+                      ),
+                      SizedBox(height: 20),
+                      // anmerkung
+                      InfoRow(
+                        icon: Ionicons.pencil,
+                        text: widget.book.anmerkung!,
+                      ),
+                      SizedBox(height: 20),
+                      // interessenkreis
+                      InfoRow(
+                        icon: Ionicons.bookmark,
+                        text: widget.book.interessenkreis!,
+                      ),
+                      SizedBox(height: 20),
+                      // verlagsort
+                      InfoRow(
+                        icon: Ionicons.location,
+                        text: widget.book.verlagsort!,
+                      ),
+                      // kopien
+                      SizedBox(height: 40),
+                      LocationsRow(
+                        locations: widget.book.kopien!,
+                      ),
                       SizedBox(
-                          height: MediaQuery.of(context).size.height * 0.1),
+                        height: MediaQuery.of(context).size.height * 0.1,
+                      ),
                     ],
                   ),
                 ),
