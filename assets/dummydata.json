@@ -1,6 +1,7 @@
 {
   "items": [
     {
+      "type": "books",
       "id": 1,
       "titel": "Harry Potter und der Stein der Weisen",
       "orginaltitel": "Harry Potter and the Philosopher's Stone",
@@ -29,6 +30,7 @@
       "untertitel": "Harry Potter 1"
     },
     {
+      "type": "games",
       "id": 2,
       "titel": "Harry Potter und die Kammer des Schreckens",
       "orginaltitel": "Harry Potter and the Chamber of Secrets",
@@ -61,6 +63,7 @@
       "untertitel": "Harry Potter 2"
     },
     {
+      "type": "media",
       "id": 3,
       "titel": "Harry Potter und der Gefangene von Askaban",
       "orginaltitel": "Harry Potter and the prisoner of Askaban",
@@ -89,6 +92,7 @@
       "untertitel": "Harry Potter 3"
     },
     {
+      "type": "books",
       "id": 4,
       "titel": "Harry Potter und der Feuerkelch",
       "orginaltitel": "Harry Potter and the Goblet of Fire",
@@ -117,6 +121,7 @@
       "untertitel": "Harry Potter 4"
     },
     {
+      "type": "books",
       "id": 5,
       "titel": "Harry Potter und der Orden des Phönix",
       "orginaltitel": "Harry Potter and the Order of the Phoenix",
@@ -145,6 +150,7 @@
       "untertitel": "Harry Potter 5"
     },
     {
+      "type": "books",
       "id": 6,
       "titel": "Harry Potter und der Halbblutprinz",
       "orginaltitel": "Harry Potter and the Half-Blood Prince",
@@ -177,6 +183,7 @@
       "untertitel": "Harry Potter 6"
     },
     {
+      "type": "newspaper",
       "id": 7,
       "titel": "Harry Potter und die Heiligtümer des Todes",
       "orginaltitel": "Harry Potter and the Deathly Hallows",
@@ -205,6 +212,7 @@
       "untertitel": "Harry Potter 7"
     },
     {
+      "type": "cd",
       "id": 8,
       "titel": "Harry Potter und das verwunschene Kind",
       "orginaltitel": "Harry Potter and the Cursed Child",
@@ -233,6 +241,7 @@
       "untertitel": "Harry Potter 8"
     },
     {
+      "type": "movie",
       "id": 9,
       "titel": "1984",
       "orginaltitel": "1984",
@@ -261,6 +270,7 @@
       "untertitel": "Neuübersetzung"
     },
     {
+      "type": "books",
       "id": 10,
       "titel": "Farm der Tiere",
       "orginaltitel": "Animal Farm",
@@ -293,6 +303,7 @@
       "untertitel": "Ein Märchen"
     },
     {
+      "type": "books",
       "id": 11,
       "titel": "Das geheime Olchi Experiment",
       "orginaltitel": "",
@@ -321,6 +332,7 @@
       "untertitel": "Die Olchis als Helfer der Medizin - das kann ja nur schief gehen"
     },
     {
+      "type": "books",
       "id": 12,
       "titel": "Die Olchis fliegen zum Mond",
       "orginaltitel": "",
@@ -349,6 +361,7 @@
       "untertitel": "Lustiges Weltraum-Abenteuer für Kinder ab 8 Jahren"
     },
     {
+      "type": "books",
       "id": 13,
       "titel": "Rattentanz",
       "orginaltitel": "Ratdance",
@@ -381,6 +394,7 @@
       "untertitel": "Roman"
     },
     {
+      "type": "movie",
       "id": 14,
       "titel": "Der Professor",
       "orginaltitel": "The Professor",
@@ -409,6 +423,7 @@
       "untertitel": "Psychothriller"
     },
     {
+      "type": "books",
       "id": 15,
       "titel": "Der Junge im gestreiften Pyjama",
       "orginaltitel": "The Boy in the Striped Pyjamas",
@@ -437,6 +452,7 @@
       "untertitel": "Lernglossar"
     },
     {
+      "type": "books",
       "id": 16,
       "titel": "Herr der Fliegen",
       "orginaltitel": "Lord of the flies",
@@ -465,6 +481,7 @@
       "untertitel": "Neu übersetzt von Peter Torberg"
     },
     {
+      "type": "media",
       "id": 17,
       "titel": "Avatar: Das Blut von Pandora",
       "orginaltitel": "Avatar: The blood of Pandora",
@@ -493,6 +510,7 @@
       "untertitel": "Nach einem Drehbuch von James Cameron"
     },
     {
+      "type": "books",
       "id": 18,
       "titel": "To Kill a Mockingbird",
       "orginaltitel": "To Kill a Mockingbird",
@@ -521,6 +539,7 @@
       "untertitel": "60th Anniversary Edition"
     },
     {
+      "type": "books",
       "id": 19,
       "titel": "Tote Mädchen lügen nicht",
       "orginaltitel": "13 reasons why",
@@ -549,6 +568,7 @@
       "untertitel": "Hannah Baker will nach einem Schulwechsel ein neues Leben beginnen, doch 13 Begegnungen treiben sie in den Tod. Ein Thriller, der unter die Haut geht, wie kaum ein anderer – denn tote Mädchen lügen nicht ..."
     },
     {
+      "type": "cd",
       "id": 20,
       "titel": "Lonely Castle in the Mirror",
       "orginaltitel": "Lonely Castle in the Mirror",
@@ -581,6 +601,7 @@
       "untertitel": "Eine bewegende Geschichte über Einsamkeit, Mobbing und psychische Gesundheit – und wie man gemeinsam Ängste überwindet."
     },
     {
+      "type": "cd",
       "id": 21,
       "titel": "Gregs Tagebuch- Von Idioten umzingelt!",
       "orginaltitel": "Diary of a wimpy kid",
@@ -613,6 +634,7 @@
       "untertitel": "Ein Comic-Roman"
     },
     {
+      "type": "movie",
       "id": 22,
       "titel": "Gregs Tagebuch - Gibt's Probleme?",
       "orginaltitel": "Diary of a Wimpy Kid # 2: Rodrick Rules",
@@ -641,6 +663,7 @@
       "untertitel": "Ein Comic-Roman"
     },
     {
+      "type": "books",
       "id": 23,
       "titel": "Gregs Tagebuch: Jetzt reicht's!",
       "orginaltitel": "Diary of a Wimpy Kid book 3: The Last Straw",
@@ -669,6 +692,7 @@
       "untertitel": "Ein Comic-Roman"
     },
     {
+      "type": "games",
       "id": 24,
       "titel": "Gregs Tagebuch: Ich war's nicht!",
       "orginaltitel": "Diary of a Wimpy Kid book 4: Dog Days",
@@ -701,6 +725,7 @@
       "untertitel": "Ein Comic-Roman"
     },
     {
+      "type": "books",
       "id": 25,
       "titel": "Gregs Tagebuch: Geht's noch?",
       "orginaltitel": "Diary of a Wimpy Kid # 5: The Ugly Truth",
@@ -733,6 +758,7 @@
       "untertitel": "Ein Comic-Roman"
     },
     {
+      "type": "books",
       "id": 26,
       "titel": "Gregs Tagebuch - Keine Panik!",
       "orginaltitel": "Diary of a Wimpy Kid: Cabin Fever (Book 6)",
@@ -765,6 +791,7 @@
       "untertitel": "Ein Comic-Roman"
     },
     {
+      "type": "books",
       "id": 27,
       "titel": "Gregs Tagebuch - Dumm gelaufen!",
       "orginaltitel": "Diary of a Wimpy Kid: The Third Wheel (Book 7)",
@@ -797,6 +824,7 @@
       "untertitel": "Ein Comic-Roman"
     },
     {
+      "type": "newspaper",
       "id": 28,
       "titel": "Gregs Tagebuch - Echt übel!",
       "orginaltitel": "Diary of a Wimpy Kid: Hard Luck (Book 8)",
@@ -829,6 +857,7 @@
       "untertitel": "Ein Comic-Roman"
     },
     {
+      "type": "books",
       "id": 29,
       "titel": "Gregs Tagebuch - Böse Falle!",
       "orginaltitel": "Diary of a Wimpy Kid: The Long Haul (Book 9)",
@@ -861,6 +890,7 @@
       "untertitel": "Ein Comic-Roman"
     },
     {
+      "type": "books",
       "id": 30,
       "titel": "Gregs Tagebuch - So ein Mist!",
       "orginaltitel": "Diary of a Wimpy Kid: Old School (Book 10)",
@@ -893,6 +923,7 @@
       "untertitel": "Ein Comic-Roman"
     },
     {
+      "type": "books",
       "id": 31,
       "titel": "Dune – Der Wüstenplanet",
       "orginaltitel": "Dune – The desert planet",
@@ -925,6 +956,7 @@
       "untertitel": ""
     },
     {
+      "type": "books",
       "id": 32,
       "titel": "Snow Crash",
       "orginaltitel": "Snow Crash",
@@ -953,6 +985,7 @@
       "untertitel": ""
     },
     {
+      "type": "media",
       "id": 33,
       "titel": "In den Armen der Nacht",
       "orginaltitel": "In the arms of the night",
@@ -981,6 +1014,7 @@
       "untertitel": "Ein neuer explosiver Lady-Thriller und ein neuer Fall für Eve Dallas, der sie tief in ihre eigene Vergangenheit zurückführt"
     },
     {
+      "type": "books",
       "id": 34,
       "titel": "The Green Mile",
       "orginaltitel": "The Green Mile",
@@ -1009,6 +1043,7 @@
       "untertitel": ""
     },
     {
+      "type": "media",
       "id": 35,
       "titel": "Es",
       "orginaltitel": "It",
@@ -1037,6 +1072,7 @@
       "untertitel": "Stephen Kings Meisterwerk über die Mysterien der Kindheit und den Horror des Erwachsenseins."
     },
     {
+      "type": "books",
       "id": 36,
       "titel": "Das Haus",
       "orginaltitel": "House of Leaves",
@@ -1069,6 +1105,7 @@
       "untertitel": ""
     },
     {
+      "type": "books",
       "id": 37,
       "titel": "Spuk in Hill House",
       "orginaltitel": "The Haunting of Hill House",
@@ -1101,6 +1138,7 @@
       "untertitel": "Das Meisterwerk der 'Queen of Horror'"
     },
     {
+      "type": "cd",
       "id": 38,
       "titel": "Biss zum Morgengrauen",
       "orginaltitel": "Biss zum Morgengrauen",
@@ -1129,6 +1167,7 @@
       "untertitel": ""
     },
     {
+      "type": "books",
       "id": 39,
       "titel": "Biss zur Mittagsstunde",
       "orginaltitel": "Biss zur Mittagsstunde",
@@ -1157,6 +1196,7 @@
       "untertitel": ""
     },
     {
+      "type": "movie",
       "id": 40,
       "titel": "Biss zum Abendrot",
       "orginaltitel": "Biss zum Abendrot",

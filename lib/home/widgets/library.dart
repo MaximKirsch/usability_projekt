@@ -63,6 +63,7 @@ class Items {
     int? umfang,
     String? cover,
     String? untertitel,
+    String? type,
   }) {
     _id = id;
     _titel = titel;
@@ -81,6 +82,7 @@ class Items {
     _umfang = umfang;
     _cover = cover;
     _untertitel = untertitel;
+    _type = type;
   }
 
   Items.fromJson(dynamic json) {
@@ -106,6 +108,7 @@ class Items {
     _umfang = json['umfang'];
     _cover = json['cover'];
     _untertitel = json['untertitel'];
+    _type = json['type'];
   }
 
   int? _id;
@@ -125,6 +128,7 @@ class Items {
   int? _umfang;
   String? _cover;
   String? _untertitel;
+  String? _type;
 
   Items copyWith({
     int? id,
@@ -144,6 +148,7 @@ class Items {
     int? umfang,
     String? cover,
     String? untertitel,
+    String? type,
   }) =>
       Items(
         id: id ?? _id,
@@ -163,6 +168,7 @@ class Items {
         umfang: umfang ?? _umfang,
         cover: cover ?? _cover,
         untertitel: untertitel ?? _untertitel,
+        type: type ?? _type,
       );
 
   int? get id => _id;
@@ -199,6 +205,8 @@ class Items {
 
   String? get untertitel => _untertitel;
 
+  String? get type => _type;
+
   Map<String, dynamic> toJson() {
     final map = <String, dynamic>{};
     map['id'] = _id;
@@ -220,6 +228,7 @@ class Items {
     map['umfang'] = _umfang;
     map['cover'] = _cover;
     map['untertitel'] = _untertitel;
+    map['type'] = _type;
     return map;
   }
 }
