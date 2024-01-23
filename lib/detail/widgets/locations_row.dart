@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:ionicons/ionicons.dart';
-import 'package:usability_projekt/library.dart';
+import 'package:usability_projekt/home/widgets/library.dart';
 
 class LocationsRow extends StatelessWidget {
   final List<Kopien> locations;
@@ -37,13 +37,14 @@ class LocationsRow extends StatelessWidget {
                     color: Colors.blueGrey,
                   ),
                   SizedBox(width: 10),
-                  Text(
-                    locations[index].bibliothek ?? 'Kein Standort',
-                    style: TextStyle(
-                      fontSize: 16,
+                  Expanded(
+                    child: Text(
+                      locations[index].bibliothek ?? 'Kein Standort',
+                      style: TextStyle(
+                        fontSize: 16,
+                      ),
                     ),
                   ),
-                  Spacer(),
                   locations[index].status == 'ausleihbar'
                       ? Icon(
                           Icons.check_circle_outline,

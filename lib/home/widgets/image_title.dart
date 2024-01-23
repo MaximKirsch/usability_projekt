@@ -1,13 +1,16 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:ionicons/ionicons.dart';
 
 class ImageTitle extends StatelessWidget {
   final ImageProvider buchBild;
   final String text;
 
+  final bool isFavorite;
+
   const ImageTitle({
     required this.buchBild,
     required this.text,
+    this.isFavorite = false,
     super.key,
   });
 
@@ -21,11 +24,25 @@ class ImageTitle extends StatelessWidget {
           ClipRRect(
             borderRadius: BorderRadius.circular(10),
             child: SizedBox(
-              child: Image(
-                image: buchBild,
-                height: 150.0,
-                width: width,
-                fit: BoxFit.cover,
+              child: Stack(
+                children: [
+                  Image(
+                    image: buchBild,
+                    height: 150.0,
+                    width: width,
+                    fit: BoxFit.cover,
+                  ),
+                  isFavorite
+                      ? Positioned(
+                          top: 5,
+                          right: 5,
+                          child: const Icon(
+                            Ionicons.heart,
+                            color: Colors.red,
+                          ),
+                        )
+                      : Container(),
+                ],
               ),
             ),
           ),

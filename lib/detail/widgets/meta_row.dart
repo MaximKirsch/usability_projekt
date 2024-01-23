@@ -5,8 +5,13 @@ import 'package:flutter/material.dart';
 class MetaRow extends StatelessWidget {
 
   final int sites;
+  final Color? textColor;
 
-  const MetaRow({required this.sites, super.key});
+  const MetaRow({
+    required this.sites,
+    this.textColor,
+    super.key,
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -35,9 +40,9 @@ class MetaRow extends StatelessWidget {
         Text(
           text,
           textAlign: TextAlign.center,
-          style: const TextStyle(
+          style: TextStyle(
             fontSize: 14.0,
-            color: Colors.white54,
+            color: textColor ?? Colors.white54,
             fontWeight: FontWeight.bold,
             overflow: TextOverflow.ellipsis,
           ),
@@ -45,9 +50,9 @@ class MetaRow extends StatelessWidget {
         Text(
           value,
           textAlign: TextAlign.center,
-          style: const TextStyle(
+          style: TextStyle(
             fontSize: 15.0,
-            color: Colors.white70,
+            color: textColor ?? Colors.white70,
             fontWeight: FontWeight.bold,
             overflow: TextOverflow.ellipsis,
           ),
@@ -55,5 +60,4 @@ class MetaRow extends StatelessWidget {
       ],
     );
   }
-
 }

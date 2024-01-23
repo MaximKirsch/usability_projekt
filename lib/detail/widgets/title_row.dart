@@ -4,10 +4,12 @@ import 'package:marquee/marquee.dart';
 class TitleRow extends StatefulWidget {
   final String title;
   final String? subtitle;
+  final Color? color;
 
   const TitleRow({
     required this.title,
     this.subtitle,
+    this.color,
     super.key,
   });
 
@@ -26,17 +28,19 @@ class _TitleRowState extends State<TitleRow> {
             child: Container(
               height: 40,
               alignment: Alignment.center,
-              child: widget.title.length > 15 ? Marquee(
-                text: widget.title,
-                style: _titleStyle(),
-                velocity: 35.0,
-                blankSpace: 30.0,
-                startAfter: const Duration(milliseconds: 400),
-              ) : Text(
-                widget.title,
-                textAlign: TextAlign.center,
-                style: _titleStyle(),
-              ),
+              child: widget.title.length > 15
+                  ? Marquee(
+                      text: widget.title,
+                      style: _titleStyle(),
+                      velocity: 35.0,
+                      blankSpace: 30.0,
+                      startAfter: const Duration(milliseconds: 400),
+                    )
+                  : Text(
+                      widget.title,
+                      textAlign: TextAlign.center,
+                      style: _titleStyle(),
+                    ),
             ),
           ),
           _buildSubtitle(),
@@ -46,9 +50,9 @@ class _TitleRowState extends State<TitleRow> {
   }
 
   TextStyle _titleStyle() {
-    return const TextStyle(
+    return TextStyle(
       fontSize: 24.0,
-      color: Colors.white70,
+      color: widget.color ?? Colors.white70,
       fontWeight: FontWeight.bold,
       overflow: TextOverflow.ellipsis,
     );
@@ -62,9 +66,9 @@ class _TitleRowState extends State<TitleRow> {
             child: Text(
               widget.subtitle!,
               textAlign: TextAlign.center,
-              style: const TextStyle(
+              style: TextStyle(
                 fontSize: 14.0,
-                color: Colors.white54,
+                color: widget.color ?? Colors.white54,
                 fontWeight: FontWeight.bold,
                 overflow: TextOverflow.ellipsis,
               ),

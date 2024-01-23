@@ -35,6 +35,8 @@ dependencies:
 
   ionicons: ^0.2.2
   marquee: ^2.2.3
+  palette_generator: ^0.3.3+3
+  shared_preferences: ^2.2.2
   unicons: any
 
 dev_dependencies:

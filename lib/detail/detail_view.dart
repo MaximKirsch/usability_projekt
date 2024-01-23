@@ -1,9 +1,15 @@
+import 'dart:ui';
+
 import 'package:flutter/material.dart';
 import 'package:ionicons/ionicons.dart';
+import 'package:palette_generator/palette_generator.dart';
+import 'package:shared_preferences/shared_preferences.dart';
+import 'package:unicons/unicons.dart';
 import 'package:usability_projekt/common/colors.dart';
+import 'package:usability_projekt/common/constants.dart';
 import 'package:usability_projekt/common/snackbars.dart';
 import 'package:usability_projekt/detail/widgets/widgets.dart';
-import 'package:usability_projekt/library.dart';
+import 'package:usability_projekt/home/widgets/library.dart';
 
 class DetailView extends StatefulWidget {
   final Items book;
@@ -20,6 +26,8 @@ class DetailView extends StatefulWidget {
 class _DetailViewState extends State<DetailView> {
   bool isFavorite = false;
   GlobalKey<FormState> customScrollViewKey = GlobalKey<FormState>();
+  Color primaryBackgroundColor = blueColor;
+  Color? primaryTextColor = null;
 
   @override
   Widget build(BuildContext context) {
@@ -37,7 +45,7 @@ class _DetailViewState extends State<DetailView> {
             ),
             primary: true,
             expandedHeight: MediaQuery.of(context).size.height * 0.6,
-            backgroundColor: Colors.blueGrey,
+            backgroundColor: primaryBackgroundColor,
             floating: false,
             pinned: true,
             leading: Padding(
@@ -49,7 +57,7 @@ class _DetailViewState extends State<DetailView> {
                   size: 34.0,
                 ),
                 onPressed: () {
-                  Navigator.pop(context);
+                  Navigator.pop(context, isFavorite);
                 },
               ),
             ),
@@ -59,9 +67,9 @@ class _DetailViewState extends State<DetailView> {
                 child: IconButton(
                   icon: Icon(
                     !isFavorite
-                        ? Icons.bookmark_border_outlined
-                        : Icons.bookmark,
-                    color: Colors.white70,
+                        ? Ionicons.heart_outline
+                        : Ionicons.heart,
+                    color: !isFavorite ? Colors.white70 : Colors.red[600],
                     size: 34.0,
                   ),
                   onPressed: () {
@@ -77,7 +85,7 @@ class _DetailViewState extends State<DetailView> {
                   crossAxisAlignment: CrossAxisAlignment.center,
                   children: [
                     Padding(
-                      padding: const EdgeInsets.symmetric(vertical: 20),
+                      padding: const EdgeInsets.only(top: 20),
                       child: Column(
                         children: [
                           Container(
@@ -106,11 +114,17 @@ class _DetailViewState extends State<DetailView> {
                             child: TitleRow(
                               title: widget.book.titel!,
                               subtitle: widget.book.autor,
+                              color: _isLightColor(primaryBackgroundColor)
+                                  ? blackColor
+                                  : null,
                             ),
                           ),
                           SizedBox(height: 32),
                           MetaRow(
                             sites: widget.book.umfang!,
+                            textColor: _isLightColor(primaryBackgroundColor)
+                                ? blackColor
+                                : null,
                           ),
                         ],
                       ),
@@ -220,10 +234,61 @@ class _DetailViewState extends State<DetailView> {
     );
   }
 
-  void onFavoritePressed() {
+  Future<void> _uploadPrimaryBackgroundColor() async {
+    final Image image = Image.asset(widget.book.cover!);
+    final PaletteGenerator generator = await PaletteGenerator.fromImageProvider(
+      image.image,
+    );
+    setState(() {
+      primaryBackgroundColor = generator.mutedColor!.color;
+    });
+  }
+
+  @override
+  void initState() {
+    _uploadPrimaryBackgroundColor();
+    initFavoriteState();
+    updateRecentBooks();
+    super.initState();
+  }
+
+  bool _isLightColor(Color color) {
+    return color.computeLuminance() > 0.5;
+  }
+
+  Future<void> initFavoriteState() async {
+    SharedPreferences prefs = await SharedPreferences.getInstance();
+    final List<String> favorites =
+        prefs.getStringList(favoritesKey) ?? <String>[];
+    setState(() {
+      isFavorite = favorites.contains(widget.book.isbn!);
+    });
+  }
+
+  Future<void> updateRecentBooks() async {
+    SharedPreferences prefs = await SharedPreferences.getInstance();
+    final List<String> recentBooks =
+        prefs.getStringList(recentKey) ?? <String>[];
+    if (recentBooks.contains(widget.book.isbn!)) {
+      recentBooks.remove(widget.book.isbn!);
+    }
+    recentBooks.insert(0, widget.book.isbn!);
+    await prefs.setStringList(recentKey, recentBooks);
+  }
+
+  Future<void> onFavoritePressed() async {
     setState(() {
       isFavorite = !isFavorite;
     });
+    SharedPreferences prefs = await SharedPreferences.getInstance();
+    final List<String> favorites =
+        prefs.getStringList(favoritesKey) ?? <String>[];
+    if (isFavorite) {
+      favorites.add(widget.book.isbn!);
+    } else {
+      favorites.remove(widget.book.isbn!);
+    }
+    await prefs.setStringList(favoritesKey, favorites);
     showSuccessSnackBar(
       context,
       message: isFavorite
