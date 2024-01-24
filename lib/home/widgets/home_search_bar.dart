@@ -74,135 +74,139 @@ class _HomeSearchBarState extends State<HomeSearchBar> {
       },
       suggestionsBuilder: (context, controller) {
         return [
-          Padding(
-            padding: const EdgeInsets.fromLTRB(
-              14.0,
-              0.0,
-              14.0,
-              14.0,
-            ),
-            child: Wrap(
-              spacing: 10,
-              children: [
-                CustomChip(
-                  icon: Icons.book,
-                  text: 'Bücher',
-                  onPressed: () {
-                    setState(() {
-                      updateSearchFilter('books');
-                    });
-                  },
-                  active: _isSearchFilterActive('books'),
-                ),
-                CustomChip(
-                  icon: Icons.games,
-                  text: 'Spiele',
-                  onPressed: () {
-                    setState(() {
-                      updateSearchFilter('games');
-                    });
-                  },
-                  active: _isSearchFilterActive('games'),
-                ),
-                CustomChip(
-                  icon: Icons.movie,
-                  text: 'Filme',
-                  onPressed: () {
-                    setState(() {
-                      updateSearchFilter('movie');
-                    });
-                  },
-                  active: _isSearchFilterActive('movie'),
-                ),
-                CustomChip(
-                  icon: Icons.album,
-                  text: 'CDs',
-                  onPressed: () {
-                    setState(() {
-                      updateSearchFilter('cd');
-                    });
-                  },
-                  active: _isSearchFilterActive('cd'),
-                ),
-                CustomChip(
-                  icon: Icons.library_books,
-                  text: 'Zeitschriften',
-                  onPressed: () {
-                    setState(() {
-                      updateSearchFilter('newspaper');
-                    });
-                  },
-                  active: _isSearchFilterActive('newspaper'),
-                ),
-                CustomChip(
-                  icon: Icons.smartphone,
-                  text: 'eMedien',
-                  onPressed: () {
-                    setState(() {
-                      updateSearchFilter('media');
-                    });
-                  },
-                  active: _isSearchFilterActive('media'),
-                ),
-                CustomChip(
-                  icon: Icons.disc_full,
-                  text: 'CD/DVD-ROMs',
-                  onPressed: () {
-                    setState(() {
-                      updateSearchFilter('cd');
-                    });
-                  },
-                  active: _isSearchFilterActive('cd'),
-                ),
-                searchFilterTypes.isEmpty
-                    ? Container()
-                    : CustomChip(
-                        icon: Icons.clear,
-                        text: 'Filter löschen',
-                        onPressed: () {
-                          setState(() {
-                            searchFilterTypes.clear();
-                          });
-                        },
-                        ignoreSelection: true,
-                      ),
-              ],
-            ),
-          ),
           StreamBuilder(
             initialData: widget.library!.items!,
             stream: streamController.stream,
             builder: (context, snapshot) {
               if (snapshot.hasData) {
-                return ListView.builder(
-                  shrinkWrap: true,
-                  itemCount: suggestions.length,
-                  physics: const NeverScrollableScrollPhysics(),
-                  itemBuilder: (context, index) {
-                    return ListTile(
-                      title: Text(
-                        suggestions[index].titel!,
+                return Column(
+                  children: [
+                    Padding(
+                      padding: const EdgeInsets.fromLTRB(
+                        14.0,
+                        0.0,
+                        14.0,
+                        14.0,
                       ),
-                      horizontalTitleGap: 16.0,
-                      minVerticalPadding: 24.0,
-                      leading: Image.asset(
-                        suggestions[index].cover!,
-                        width: 50,
-                        height: 100,
-                        fit: BoxFit.cover,
-                      ),
-                      onTap: () {
-                        Navigator.push(
-                          context,
-                          MaterialPageRoute(
-                            builder: (context) => DetailView(
-                              book: suggestions[index],
-                            ),
+                      child: Wrap(
+                        spacing: 10,
+                        children: [
+                          CustomChip(
+                            icon: Icons.book,
+                            text: 'Bücher',
+                            onPressed: () {
+                              setState(() {
+                                updateSearchFilter('books');
+                              });
+                            },
+                            active: _isSearchFilterActive('books'),
                           ),
+                          CustomChip(
+                            icon: Icons.games,
+                            text: 'Spiele',
+                            onPressed: () {
+                              setState(() {
+                                updateSearchFilter('games');
+                              });
+                            },
+                            active: _isSearchFilterActive('games'),
+                          ),
+                          CustomChip(
+                            icon: Icons.movie,
+                            text: 'Filme',
+                            onPressed: () {
+                              setState(() {
+                                updateSearchFilter('movie');
+                              });
+                            },
+                            active: _isSearchFilterActive('movie'),
+                          ),
+                          CustomChip(
+                            icon: Icons.album,
+                            text: 'CDs',
+                            onPressed: () {
+                              setState(() {
+                                updateSearchFilter('cd');
+                              });
+                            },
+                            active: _isSearchFilterActive('cd'),
+                          ),
+                          CustomChip(
+                            icon: Icons.library_books,
+                            text: 'Zeitschriften',
+                            onPressed: () {
+                              setState(() {
+                                updateSearchFilter('newspaper');
+                              });
+                            },
+                            active: _isSearchFilterActive('newspaper'),
+                          ),
+                          CustomChip(
+                            icon: Icons.smartphone,
+                            text: 'eMedien',
+                            onPressed: () {
+                              setState(() {
+                                updateSearchFilter('media');
+                              });
+                            },
+                            active: _isSearchFilterActive('media'),
+                          ),
+                          CustomChip(
+                            icon: Icons.disc_full,
+                            text: 'CD/DVD-ROMs',
+                            onPressed: () {
+                              setState(() {
+                                updateSearchFilter('cd');
+                              });
+                            },
+                            active: _isSearchFilterActive('cd'),
+                          ),
+                          searchFilterTypes.isEmpty
+                              ? Container()
+                              : CustomChip(
+                            icon: Icons.clear,
+                            text: 'Filter löschen',
+                            onPressed: () {
+                              setState(() {
+                                clearSearchFilter();
+                              });
+                            },
+                            ignoreSelection: true,
+                          ),
+                        ],
+                      ),
+                    ),
+                    ListView.builder(
+                      shrinkWrap: true,
+                      itemCount: suggestions.length,
+                      physics: const NeverScrollableScrollPhysics(),
+                      itemBuilder: (context, index) {
+                        return ListTile(
+                          title: Text(
+                            suggestions[index].titel!,
+                          ),
+                          horizontalTitleGap: 16.0,
+                          minVerticalPadding: 24.0,
+                          leading: Image.asset(
+                            suggestions[index].cover!,
+                            width: 50,
+                            height: 100,
+                            fit: BoxFit.cover,
+                          ),
+                          onTap: () {
+                            Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                builder: (context) => DetailView(
+                                  book: suggestions[index],
+                                ),
+                              ),
+                            );
+                          },
                         );
                       },
-                    );
-                  },
+                    ),
+                  ],
                 );
               } else {
                 return const Center(
@@ -232,6 +236,11 @@ class _HomeSearchBarState extends State<HomeSearchBar> {
     } else {
       searchFilterTypes.add(filter);
     }
+    _loadSuggestions(searchController.text);
+  }
+
+  void clearSearchFilter() {
+    searchFilterTypes.clear();
     _loadSuggestions(searchController.text);
   }
 
